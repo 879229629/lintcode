@@ -1,0 +1,209 @@
+{
+  "variables": [],
+  "info": {
+    "name": "ones/do KÕ",
+    "_postman_id": "86b0becf-4e19-e09f-6d33-97237756bd35",
+    "description": "",
+    "schema": "https://schema.getpostman.com/json/collection/v2.0.0/collection.json"
+  },
+  "item": [
+    {
+      "_postman_id": "213fe8c1-efb3-335e-1e6b-699bf8a499af",
+      "name": "{U",
+      "event": [
+        {
+          "listen": "test",
+          "script": {
+            "type": "text/javascript",
+            "exec": [
+              "tests[\"Status code is 200\"] = responseCode.code === 200;",
+              "",
+              "var jsonData = JSON.parse(responseBody);",
+              "",
+              "var userUUID = jsonData.user.uuid;",
+              "var token = jsonData.user.token;",
+              "",
+              "postman.setGlobalVariable(\"userUUID\", userUUID);",
+              "",
+              "postman.setGlobalVariable(\"token\", token);",
+              "",
+              ""
+            ]
+          }
+        }
+      ],
+      "request": {
+        "url": "{{localhost.url}}/auth/login",
+        "method": "POST",
+        "header": [
+          {
+            "key": "Content-Type",
+            "value": "application/json",
+            "description": ""
+          }
+        ],
+        "body": {
+          "mode": "raw",
+          "raw": "{\n\t\"email\": \"zenggang@ones.ai\",\n\t\"password\": \"12345678\"\n}"
+        },
+        "description": ""
+      },
+      "response": [
+        {
+          "id": "a69146ab-c224-d155-a547-88df40172ed8",
+          "name": "ret",
+          "originalRequest": {
+            "url": "{{localhost.url}}/auth/login",
+            "method": "POST",
+            "header": [
+              {
+                "key": "Content-Type",
+                "value": "application/json",
+                "description": ""
+              }
+            ],
+            "body": {
+              "mode": "raw",
+              "raw": "{\n\t\"email\": \"zenggang@ones.ai\",\n\t\"password\": \"12345678\"\n}"
+            },
+            "description": ""
+          },
+          "status": "OK",
+          "code": 200,
+          "_postman_previewlanguage": "json",
+          "_postman_previewtype": "text",
+          "header": [
+            {
+              "name": "Cache-Control",
+              "key": "Cache-Control",
+              "value": "no-cache, no-store, must-revalidate",
+              "description": ""
+            },
+            {
+              "name": "Content-Length",
+              "key": "Content-Length",
+              "value": "634",
+              "description": ""
+            },
+            {
+              "name": "Content-Type",
+              "key": "Content-Type",
+              "value": "application/json; charset=UTF-8",
+              "description": ""
+            },
+            {
+              "name": "Date",
+              "key": "Date",
+              "value": "Fri, 21 Apr 2017 05:32:27 GMT",
+              "description": ""
+            },
+            {
+              "name": "Expires",
+              "key": "Expires",
+              "value": "0",
+              "description": ""
+            },
+            {
+              "name": "Pragma",
+              "key": "Pragma",
+              "value": "no-cache",
+              "description": ""
+            },
+            {
+              "name": "Server",
+              "key": "Server",
+              "value": "iris",
+              "description": ""
+            }
+          ],
+          "cookie": [],
+          "responseTime": "260",
+          "body": "{\"user\":{\"uuid\":\"MoGCoCqA\",\"email\":\"zenggang@ones.ai\",\"name\":\"þ\",\"name_pinyin\":\"ceng2gang1\",\"title\":\"\",\"avatar\":\"\",\"phone\":\"\",\"create_time\":1473819909610991,\"status\":1,\"channel\":\"uMoGCoCqA4HJ0QZJVKOzBoIuNrkHp2xZ\",\"token\":\"u36or8x8snvr11XK1VEYcxUW7AYL45w0FNCC1HqurwpOZ1sSovLVM8XPKuupmRxN\",\"roles\":[{\"uuid\":\"57QqDeKZ\",\"name\":\"\",\"category\":\"superadmin\",\"permission_codes\":[4294967295]},{\"uuid\":\"LRZdZszm\",\"name\":\"\",\"category\":\"superadmin\",\"permission_codes\":[4294967295]},{\"uuid\":\"QX7sNUDf\",\"name\":\"\",\"category\":\"superadmin\",\"permission_codes\":[4294967295]}]},\"teams\":[{\"uuid\":\"4QAboUYX\",\"name\":\"ñ3ÑñPè\",\"status\":1}]}"
+        }
+      ]
+    },
+    {
+      "_postman_id": "a216079a-425f-2dce-ff8a-4ec8ab23dc07",
+      "name": "·Ö(7áo",
+      "event": [
+        {
+          "listen": "test",
+          "script": {
+            "type": "text/javascript",
+            "exec": [
+              "tests[\"Body matches string\"] = responseBody.has(\"uuid\");",
+              "",
+              "var jsonData = JSON.parse(responseBody);",
+              "",
+              ""
+            ]
+          }
+        }
+      ],
+      "request": {
+        "url": "{{localhost.url}}/users/me?ddd=ddd",
+        "method": "GET",
+        "header": [
+          {
+            "key": "Ones-User-Id",
+            "value": "{{userUUID}}",
+            "description": ""
+          },
+          {
+            "key": "Ones-Auth-Token",
+            "value": "{{token}}",
+            "description": ""
+          }
+        ],
+        "body": {},
+        "description": ""
+      },
+      "response": []
+    },
+    {
+      "_postman_id": "37f87450-71bb-e473-8b15-4d9b15fc3849",
+      "name": "zýhüú",
+      "request": {
+        "auth": {
+          "type": "basic",
+          "basic": {
+            "username": "postman",
+            "password": "password",
+            "saveHelperData": true,
+            "showPassword": false
+          }
+        },
+        "url": "{{localhost.url}}/team/4QAboUYX/filters/export",
+        "method": "POST",
+        "header": [
+          {
+            "key": "Content-Type",
+            "value": "application/json",
+            "description": ""
+          },
+          {
+            "key": "Ones-User-Id",
+            "value": "{{userUUID}}",
+            "description": ""
+          },
+          {
+            "key": "Ones-Auth-Token",
+            "value": "{{token}}",
+            "description": ""
+          },
+          {
+            "key": "Authorization",
+            "value": "Basic cG9zdG1hbjpwYXNzd29yZA==",
+            "description": ""
+          }
+        ],
+        "body": {
+          "mode": "raw",
+          "raw": "{\n\t\n}"
+        },
+        "description": "zýhüú"
+      },
+      "response": []
+    }
+  ]
+}
