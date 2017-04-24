@@ -199,7 +199,7 @@
         ],
         "body": {
           "mode": "raw",
-          "raw": "{\n\t\n}"
+          "raw": "{\n\t\"name\": \"xxxyy\",\n\t\"query\":{\"should\":[{\"must\":[{\"equal\":{\"project_uuid\":\"PgCFAGmwGnaiaMil\"}}]}]},\"start\":0,\"limit\":50\n\t\t\n\t}\n"
         },
         "description": "zýhüú"
       },
