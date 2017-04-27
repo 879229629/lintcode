@@ -204,6 +204,18 @@
         "description": "zýhüú"
       },
       "response": []
+    },
+    {
+      "_postman_id": "85a34ef8-4f52-a7a3-8041-21e98f686aaf",
+      "name": "¤Á token",
+      "request": {
+        "url": "{{localhost.url}}/auth",
+        "method": "POST",
+        "header": [],
+        "body": {},
+        "description": ""
+      },
+      "response": []
     }
   ]
 }
