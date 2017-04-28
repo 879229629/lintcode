@@ -233,8 +233,19 @@
       "name": "(7¤Á",
       "request": {
         "url": " http://localhost:9002/team/xx/spaces",
-        "method": "GET",
-        "header": [],
+        "method": "POST",
+        "header": [
+          {
+            "key": "Ones-User-Id",
+            "value": "{{userUUID}}",
+            "description": ""
+          },
+          {
+            "key": "Ones-Auth-Token",
+            "value": "{{token}}",
+            "description": ""
+          }
+        ],
         "body": {},
         "description": ""
       },
