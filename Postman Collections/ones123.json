@@ -233,7 +233,7 @@
       "name": "(7¤Á",
       "request": {
         "url": " http://localhost:9002/team/xx/spaces",
-        "method": "POST",
+        "method": "GET",
         "header": [
           {
             "key": "Ones-User-Id",
