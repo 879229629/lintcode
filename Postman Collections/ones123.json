@@ -256,7 +256,7 @@
       "name": "KÕ",
       "request": {
         "url": "https://dev.api.ones.ai/wiki/dev_1.0.0/team/xxx/spaces",
-        "method": "POST",
+        "method": "GET",
         "header": [
           {
             "key": "Ones-User-Id",
