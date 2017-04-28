@@ -210,7 +210,7 @@
       "name": "¤Á token",
       "request": {
         "url": "{{localhost.url}}/auth",
-        "method": "POST",
+        "method": "HEAD",
         "header": [
           {
             "key": "Ones-User-Id",
