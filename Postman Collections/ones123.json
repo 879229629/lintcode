@@ -227,6 +227,18 @@
         "description": ""
       },
       "response": []
+    },
+    {
+      "_postman_id": "6858500c-6e28-107f-d6ef-d3c4070a6138",
+      "name": "(7¤Á",
+      "request": {
+        "url": " http://localhost:9002/team/xx/spaces",
+        "method": "GET",
+        "header": [],
+        "body": {},
+        "description": ""
+      },
+      "response": []
     }
   ]
 }
