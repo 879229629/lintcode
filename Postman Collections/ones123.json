@@ -273,6 +273,49 @@
         "description": ""
       },
       "response": []
+    },
+    {
+      "_postman_id": "8ff1279a-1cae-3e44-1923-c94a61845efa",
+      "name": "{U copy",
+      "event": [
+        {
+          "listen": "test",
+          "script": {
+            "type": "text/javascript",
+            "exec": [
+              "tests[\"Status code is 200\"] = responseCode.code === 200;",
+              "",
+              "var jsonData = JSON.parse(responseBody);",
+              "",
+              "var userUUID = jsonData.user.uuid;",
+              "var token = jsonData.user.token;",
+              "",
+              "postman.setGlobalVariable(\"userUUID\", userUUID);",
+              "",
+              "postman.setGlobalVariable(\"token\", token);",
+              "",
+              ""
+            ]
+          }
+        }
+      ],
+      "request": {
+        "url": "{{localhost.url}}/auth/login",
+        "method": "POST",
+        "header": [
+          {
+            "key": "Content-Type",
+            "value": "application/json",
+            "description": ""
+          }
+        ],
+        "body": {
+          "mode": "raw",
+          "raw": "{\n\t\"email\": \"zenggang@ones.ai\",\n\t\"password\": \"12345678\"\n}"
+        },
+        "description": ""
+      },
+      "response": []
     }
   ]
 }
