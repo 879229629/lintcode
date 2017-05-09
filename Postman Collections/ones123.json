@@ -348,7 +348,7 @@
         ],
         "body": {
           "mode": "raw",
-          "raw": "{\n\t\"email\":\"\",\n\t\"phone\":\"\",\n\t\"name\":\"\",\n\t\"password\":\"\",\n\t\"invite_code\":\"{{invite_code}}\"\n}"
+          "raw": "{\n\t\"email\":\"zenggang+01@ones.ai\",\n\t\"phone\":\"\",\n\t\"name\":\"zenggang+01\",\n\t\"password\":\"zenggang\",\n\t\"invite_code\":\"{{inviteCode}}\"\n}"
         },
         "description": ""
       },
