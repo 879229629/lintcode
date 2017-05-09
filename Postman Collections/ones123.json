@@ -26,7 +26,6 @@
               "postman.setGlobalVariable(\"userUUID\", userUUID);",
               "",
               "postman.setGlobalVariable(\"token\", token);",
-              "",
               ""
             ]
           }
