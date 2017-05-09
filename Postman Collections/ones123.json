@@ -384,6 +384,29 @@
         "description": ""
       },
       "response": []
+    },
+    {
+      "_postman_id": "88b5caca-9ce7-6672-46ec-4e161fd6b9c2",
+      "name": " dâX",
+      "request": {
+        "url": "{{localhost.url}}/team/{{team_uuid}}/delete_member",
+        "method": "GET",
+        "header": [
+          {
+            "key": "Ones-User-Id",
+            "value": "{{userUUID}}",
+            "description": ""
+          },
+          {
+            "key": "Ones-Auth-Token",
+            "value": "{{token}}",
+            "description": ""
+          }
+        ],
+        "body": {},
+        "description": ""
+      },
+      "response": []
     }
   ]
 }
