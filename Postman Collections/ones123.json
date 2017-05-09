@@ -370,9 +370,17 @@
             "key": "Ones-Auth-Token",
             "value": "{{token}}",
             "description": ""
+          },
+          {
+            "key": "Content-Type",
+            "value": "application/json",
+            "description": ""
           }
         ],
-        "body": {},
+        "body": {
+          "mode": "raw",
+          "raw": "{\n\t\"email\":\"zenggang+01@ones.ai\"\n}"
+        },
         "description": ""
       },
       "response": []
