@@ -353,6 +353,29 @@
         "description": ""
       },
       "response": []
+    },
+    {
+      "_postman_id": "b18fee0a-13fd-7076-327c-2c4293214abd",
+      "name": "Õn∆",
+      "request": {
+        "url": "{{localhost.url}}/auth/request_reset_code",
+        "method": "POST",
+        "header": [
+          {
+            "key": "Ones-User-Id",
+            "value": "{{userUUID}}",
+            "description": ""
+          },
+          {
+            "key": "Ones-Auth-Token",
+            "value": "{{token}}",
+            "description": ""
+          }
+        ],
+        "body": {},
+        "description": ""
+      },
+      "response": []
     }
   ]
 }
