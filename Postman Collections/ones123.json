@@ -22,11 +22,14 @@
               "",
               "var userUUID = jsonData.user.uuid;",
               "var token = jsonData.user.token;",
+              "var teamUUID = jsonData.teams[0].uuid;",
+              "",
               "",
               "postman.setGlobalVariable(\"userUUID\", userUUID);",
               "",
               "postman.setGlobalVariable(\"token\", token);",
               "",
+              "postman.setGlobalVariable(\"team_uuid\", teamUUID);",
               ""
             ]
           }
@@ -210,7 +213,7 @@
       "name": "¤Á token",
       "request": {
         "url": "{{localhost.url}}/auth",
-        "method": "HEAD",
+        "method": "POST",
         "header": [
           {
             "key": "Ones-User-Id",
@@ -275,6 +278,23 @@
     {
       "_postman_id": "435a54b4-7f78-5c02-bbe8-852b8e8c860f",
       "name": "€÷X",
+      "event": [
+        {
+          "listen": "test",
+          "script": {
+            "type": "text/javascript",
+            "exec": [
+              "tests[\"Status code is 200\"] = responseCode.code === 200;",
+              "",
+              "var jsonData = JSON.parse(responseBody);",
+              "",
+              "var inviteCode = jsonData.invite_code;",
+              "",
+              "postman.setGlobalVariable(\"invite_code\", inviteCode);"
+            ]
+          }
+        }
+      ],
       "request": {
         "url": "{{localhost.url}}/team/{{team_uuid}}/invitations/add",
         "method": "POST",
