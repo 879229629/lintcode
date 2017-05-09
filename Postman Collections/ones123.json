@@ -301,8 +301,27 @@
       "request": {
         "url": "{{localhost.url}}/team/{{team_uuid}}/invitations/add",
         "method": "POST",
-        "header": [],
-        "body": {},
+        "header": [
+          {
+            "key": "Ones-User-Id",
+            "value": "{{userUUID}}",
+            "description": ""
+          },
+          {
+            "key": "Ones-Auth-Token",
+            "value": "{{token}}",
+            "description": ""
+          },
+          {
+            "key": "Content-Type",
+            "value": "application/json",
+            "description": ""
+          }
+        ],
+        "body": {
+          "mode": "raw",
+          "raw": "{\n\t\"email\":\"zenggang+01@ones.ai\"\n}"
+        },
         "description": ""
       },
       "response": []
