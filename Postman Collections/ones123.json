@@ -22,10 +22,14 @@
               "",
               "var userUUID = jsonData.user.uuid;",
               "var token = jsonData.user.token;",
+              "var teamUUID = jsonData.teams[0].uuid;",
+              "",
               "",
               "postman.setGlobalVariable(\"userUUID\", userUUID);",
               "",
               "postman.setGlobalVariable(\"token\", token);",
+              "",
+              "postman.setGlobalVariable(\"team_uuid\", teamUUID);",
               ""
             ]
           }
