@@ -141,7 +141,7 @@
         }
       ],
       "request": {
-        "url": "{{localhost.url}}/users/me?ddd=ddd",
+        "url": "{{localhost.url}}/users/me",
         "method": "GET",
         "header": [
           {
