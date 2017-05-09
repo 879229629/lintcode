@@ -329,7 +329,18 @@
       "request": {
         "url": "{{localhost.url}}/auth/invite_join_team",
         "method": "POST",
-        "header": [],
+        "header": [
+          {
+            "key": "Ones-User-Id",
+            "value": "{{userUUID}}",
+            "description": ""
+          },
+          {
+            "key": "Ones-Auth-Token",
+            "value": "{{token}}",
+            "description": ""
+          }
+        ],
         "body": {},
         "description": ""
       },
