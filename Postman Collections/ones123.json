@@ -339,9 +339,17 @@
             "key": "Ones-Auth-Token",
             "value": "{{token}}",
             "description": ""
+          },
+          {
+            "key": "Content-Type",
+            "value": "application/json",
+            "description": ""
           }
         ],
-        "body": {},
+        "body": {
+          "mode": "raw",
+          "raw": "{\n\t\"email\":\"\",\n\t\"phone\":\"\",\n\t\"name\":\"\",\n\t\"password\":\"\",\n\t\"invite_code\":\"\"\n}"
+        },
         "description": ""
       },
       "response": []
