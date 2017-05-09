@@ -300,7 +300,7 @@
       "name": "€÷X",
       "request": {
         "url": "{{localhost.url}}/team/{{team_uuid}}/invitations/add",
-        "method": "GET",
+        "method": "POST",
         "header": [],
         "body": {},
         "description": ""
