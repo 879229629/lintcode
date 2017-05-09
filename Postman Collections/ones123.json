@@ -59,14 +59,14 @@
               {
                 "key": "Content-Type",
                 "value": "application/json",
-                "description": ""
+                "enabled": true,
+                "description": "The mime type of this content"
               }
             ],
             "body": {
               "mode": "raw",
               "raw": "{\n\t\"email\": \"zenggang@ones.ai\",\n\t\"password\": \"12345678\"\n}"
-            },
-            "description": ""
+            }
           },
           "status": "OK",
           "code": 200,
@@ -313,6 +313,90 @@
           "mode": "raw",
           "raw": "{\n\t\"email\": \"zenggang@ones.ai\",\n\t\"password\": \"12345678\"\n}"
         },
+        "description": ""
+      },
+      "response": [
+        {
+          "id": "bc8a1f08-0ec7-98ea-3bb0-20643e23a1d8",
+          "name": "ret",
+          "originalRequest": {
+            "url": "{{localhost.url}}/auth/login",
+            "method": "POST",
+            "header": [
+              {
+                "key": "Content-Type",
+                "value": "application/json",
+                "enabled": true,
+                "description": "The mime type of this content"
+              }
+            ],
+            "body": {
+              "mode": "raw",
+              "raw": "{\n\t\"email\": \"zenggang@ones.ai\",\n\t\"password\": \"12345678\"\n}"
+            }
+          },
+          "status": "OK",
+          "code": 200,
+          "_postman_previewlanguage": "json",
+          "_postman_previewtype": "text",
+          "header": [
+            {
+              "name": "Cache-Control",
+              "key": "Cache-Control",
+              "value": "no-cache, no-store, must-revalidate",
+              "description": ""
+            },
+            {
+              "name": "Content-Length",
+              "key": "Content-Length",
+              "value": "634",
+              "description": ""
+            },
+            {
+              "name": "Content-Type",
+              "key": "Content-Type",
+              "value": "application/json; charset=UTF-8",
+              "description": ""
+            },
+            {
+              "name": "Date",
+              "key": "Date",
+              "value": "Fri, 21 Apr 2017 05:32:27 GMT",
+              "description": ""
+            },
+            {
+              "name": "Expires",
+              "key": "Expires",
+              "value": "0",
+              "description": ""
+            },
+            {
+              "name": "Pragma",
+              "key": "Pragma",
+              "value": "no-cache",
+              "description": ""
+            },
+            {
+              "name": "Server",
+              "key": "Server",
+              "value": "iris",
+              "description": ""
+            }
+          ],
+          "cookie": [],
+          "responseTime": "260",
+          "body": "{\"user\":{\"uuid\":\"MoGCoCqA\",\"email\":\"zenggang@ones.ai\",\"name\":\"þ\",\"name_pinyin\":\"ceng2gang1\",\"title\":\"\",\"avatar\":\"\",\"phone\":\"\",\"create_time\":1473819909610991,\"status\":1,\"channel\":\"uMoGCoCqA4HJ0QZJVKOzBoIuNrkHp2xZ\",\"token\":\"u36or8x8snvr11XK1VEYcxUW7AYL45w0FNCC1HqurwpOZ1sSovLVM8XPKuupmRxN\",\"roles\":[{\"uuid\":\"57QqDeKZ\",\"name\":\"\",\"category\":\"superadmin\",\"permission_codes\":[4294967295]},{\"uuid\":\"LRZdZszm\",\"name\":\"\",\"category\":\"superadmin\",\"permission_codes\":[4294967295]},{\"uuid\":\"QX7sNUDf\",\"name\":\"\",\"category\":\"superadmin\",\"permission_codes\":[4294967295]}]},\"teams\":[{\"uuid\":\"4QAboUYX\",\"name\":\"ñ3ÑñPè\",\"status\":1}]}"
+        }
+      ]
+    },
+    {
+      "_postman_id": "033f97f8-9983-f56b-cb32-b22f1d9b8636",
+      "name": "úâ",
+      "request": {
+        "url": "{{localhost.url}}/auth/create_team",
+        "method": "POST",
+        "header": [],
+        "body": {},
         "description": ""
       },
       "response": []
