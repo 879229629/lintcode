@@ -322,6 +322,18 @@
         "description": ""
       },
       "response": []
+    },
+    {
+      "_postman_id": "824ffa16-85f7-e0a0-8697-a561e8f7b61d",
+      "name": " eâ",
+      "request": {
+        "url": "{{localhost.url}}/auth/invite_join_team",
+        "method": "POST",
+        "header": [],
+        "body": {},
+        "description": ""
+      },
+      "response": []
     }
   ]
 }
