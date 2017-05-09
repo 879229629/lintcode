@@ -276,7 +276,7 @@
     },
     {
       "_postman_id": "8ff1279a-1cae-3e44-1923-c94a61845efa",
-      "name": "{U copy",
+      "name": "{U",
       "event": [
         {
           "listen": "test",
@@ -311,7 +311,7 @@
         ],
         "body": {
           "mode": "raw",
-          "raw": "{\n\t\"email\": \"zenggang@ones.ai\",\n\t\"password\": \"12345678\"\n}"
+          "raw": "{\n\t\"email\": \"zenggang@ones.ai\",\n\t\"password\": \"zenggang\"\n}"
         },
         "description": ""
       },
