@@ -294,6 +294,18 @@
         "description": ""
       },
       "response": []
+    },
+    {
+      "_postman_id": "435a54b4-7f78-5c02-bbe8-852b8e8c860f",
+      "name": "€÷X",
+      "request": {
+        "url": "{{localhost.url}}/team/{{team_uuid}}/invitations/add",
+        "method": "GET",
+        "header": [],
+        "body": {},
+        "description": ""
+      },
+      "response": []
     }
   ]
 }
