@@ -415,6 +415,18 @@
         "description": ""
       },
       "response": []
+    },
+    {
+      "_postman_id": "9d4572b2-2b5d-ae43-6475-58112f8da37f",
+      "name": "·Öwiki page Dö",
+      "request": {
+        "url": "{{localhost.url}}/team/{{team_uuid}}/page/12345678/attachments",
+        "method": "GET",
+        "header": [],
+        "body": {},
+        "description": ""
+      },
+      "response": []
     }
   ]
 }
