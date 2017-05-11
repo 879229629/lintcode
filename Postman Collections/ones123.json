@@ -422,7 +422,18 @@
       "request": {
         "url": "{{localhost.url}}/team/{{team_uuid}}/page/12345678/attachments",
         "method": "GET",
-        "header": [],
+        "header": [
+          {
+            "key": "Ones-User-Id",
+            "value": "{{userUUID}}",
+            "description": ""
+          },
+          {
+            "key": "Ones-Auth-Token",
+            "value": "{{token}}",
+            "description": ""
+          }
+        ],
         "body": {},
         "description": ""
       },
