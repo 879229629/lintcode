@@ -475,7 +475,7 @@
       "_postman_id": "fe7403df-4805-825d-db5a-1c855be5d00b",
       "name": "·Ö space Dö",
       "request": {
-        "url": "{{localhost.url}}/team/{{team_uuid}}/res/attachments/upload",
+        "url": "{{localhost.url}}/team/{{team_uuid}}/space/1234567890/attachments",
         "method": "GET",
         "header": [
           {
