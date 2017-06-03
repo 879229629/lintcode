@@ -470,6 +470,29 @@
         "description": ""
       },
       "response": []
+    },
+    {
+      "_postman_id": "fe7403df-4805-825d-db5a-1c855be5d00b",
+      "name": "·Ö space Dö",
+      "request": {
+        "url": "{{localhost.url}}/team/{{team_uuid}}/res/attachments/upload",
+        "method": "GET",
+        "header": [
+          {
+            "key": "Ones-User-Id",
+            "value": "{{userUUID}}",
+            "description": ""
+          },
+          {
+            "key": "Ones-Auth-Token",
+            "value": "{{token}}",
+            "description": ""
+          }
+        ],
+        "body": {},
+        "description": ""
+      },
+      "response": []
     }
   ]
 }
