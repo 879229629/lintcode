@@ -465,7 +465,7 @@
         ],
         "body": {
           "mode": "raw",
-          "raw": "{\n    \"type\": \"attachment\",\n    \"ref_type\": \"project\",\n    \"ref_id\": \"VcbR2ORJG1lPWlTq\",\n    \"name\": \"example.ppt\",\n    \"hash\": \"FhafioiyVcbR2ORJG1lPWlTqT8Tn\"\n}"
+          "raw": "{\n    \"type\": \"attachment\",\n    \"ref_type\": \"space\",\n    \"ref_id\": \"12345678\",\n    \"name\": \"example.ppt\",\n    \"hash\": \"FhafioiyVcbR2ORJG1lPWlTqT8Tn\"\n}"
         },
         "description": ""
       },
