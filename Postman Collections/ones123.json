@@ -444,7 +444,7 @@
       "name": "
  Dö",
       "request": {
-        "url": "{{localhost.url}}/team/{{teamUUID}}/res/attachments/upload",
+        "url": "{{localhost.url}}/team/{{team_uuid}}/res/attachments/upload",
         "method": "POST",
         "header": [
           {
