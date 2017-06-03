@@ -465,7 +465,7 @@
         ],
         "body": {
           "mode": "raw",
-          "raw": "{\n\t\n\t\n}"
+          "raw": "{\n    \"type\": \"attachment\",\n    \"ref_type\": \"project\",\n    \"ref_id\": \"VcbR2ORJG1lPWlTq\",\n    \"name\": \"example.ppt\",\n    \"hash\": \"FhafioiyVcbR2ORJG1lPWlTqT8Tn\"\n}"
         },
         "description": ""
       },
