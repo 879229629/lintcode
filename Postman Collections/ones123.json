@@ -29,7 +29,7 @@
               "",
               "postman.setGlobalVariable(\"token\", token);",
               "",
-              "postman.setGlobalVariable(\"team_uuid\", teamUUID);",
+              "postman.setGlobalVariable(\"teamUUID\", teamUUID);",
               ""
             ]
           }
