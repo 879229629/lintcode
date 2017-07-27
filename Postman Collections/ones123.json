@@ -558,6 +558,18 @@
         "description": ""
       },
       "response": []
+    },
+    {
+      "_postman_id": "e019a77d-334e-acf1-78a1-fc848b6ac9a2",
+      "name": "ô°yîÒöMn",
+      "request": {
+        "url": "{{localhost.url}}/team/{{team_uuid}}/project/{{project_uuid}}/plugin/config",
+        "method": "POST",
+        "header": [],
+        "body": {},
+        "description": ""
+      },
+      "response": []
     }
   ]
 }
