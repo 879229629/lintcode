@@ -565,8 +565,17 @@
       "request": {
         "url": "{{localhost.url}}/team/{{team_uuid}}/project/{{project_uuid}}/plugin/config",
         "method": "POST",
-        "header": [],
-        "body": {},
+        "header": [
+          {
+            "key": "Content-Type",
+            "value": "application/json",
+            "description": ""
+          }
+        ],
+        "body": {
+          "mode": "raw",
+          "raw": "{\n\t\n}"
+        },
         "description": ""
       },
       "response": []
