@@ -527,7 +527,31 @@
       "_postman_id": "cafdd2e5-21dc-c495-cdb8-a41f7d7e77b9",
       "name": "·ÖyîÒöMn",
       "request": {
-        "url": "{{localhost.url}}/team/{{team_uuid}}/project/{{project_uuid}}/plugin/config",
+        "url": {
+          "raw": "{{localhost.url}}/team/{{team_uuid}}/project/{{project_uuid}}/plugin/config?plugin_uuid=12345678",
+          "auth": {},
+          "host": [
+            "{{localhost",
+            "url}}"
+          ],
+          "path": [
+            "team",
+            "{{team_uuid}}",
+            "project",
+            "{{project_uuid}}",
+            "plugin",
+            "config"
+          ],
+          "query": [
+            {
+              "key": "plugin_uuid",
+              "value": "12345678",
+              "equals": true,
+              "description": ""
+            }
+          ],
+          "variable": []
+        },
         "method": "GET",
         "header": [],
         "body": {},
