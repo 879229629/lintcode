@@ -480,15 +480,25 @@
         "header": [
           {
             "key": "Ones-User-Id",
-            "value": "{{userUUID}}",
-            "description": ""
+            "value": "{{userUUID}}"
           },
           {
             "key": "Ones-Auth-Token",
-            "value": "{{token}}",
-            "description": ""
+            "value": "{{token}}"
           }
         ],
+        "body": {},
+        "description": ""
+      },
+      "response": []
+    },
+    {
+      "_postman_id": "6fd295d7-1bcb-75d3-7ba7-30b93bcab9f2",
+      "name": "·Ö”(",
+      "request": {
+        "url": "{{localhost.url}}/app",
+        "method": "GET",
+        "header": [],
         "body": {},
         "description": ""
       },
