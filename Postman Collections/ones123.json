@@ -496,7 +496,26 @@
       "_postman_id": "6fd295d7-1bcb-75d3-7ba7-30b93bcab9f2",
       "name": "·Ö”(",
       "request": {
-        "url": "{{localhost.url}}/app",
+        "url": {
+          "raw": "{{localhost.url}}/app?appId=874881574",
+          "auth": {},
+          "host": [
+            "{{localhost",
+            "url}}"
+          ],
+          "path": [
+            "app"
+          ],
+          "query": [
+            {
+              "key": "appId",
+              "value": "874881574",
+              "equals": true,
+              "description": ""
+            }
+          ],
+          "variable": []
+        },
         "method": "GET",
         "header": [],
         "body": {},
