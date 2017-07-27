@@ -522,6 +522,18 @@
         "description": ""
       },
       "response": []
+    },
+    {
+      "_postman_id": "cafdd2e5-21dc-c495-cdb8-a41f7d7e77b9",
+      "name": "·ÖyîÒöMn",
+      "request": {
+        "url": "{{localhost.url}}/team/{{team_uuid}}/project/{{project_uuid}}/plugin/config",
+        "method": "GET",
+        "header": [],
+        "body": {},
+        "description": ""
+      },
+      "response": []
     }
   ]
 }
