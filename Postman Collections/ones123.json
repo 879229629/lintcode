@@ -36,7 +36,7 @@
         }
       ],
       "request": {
-        "url": "{{localhost.url}}/auth/login",
+        "url": "{{base_url}}/auth/login",
         "method": "POST",
         "header": [
           {
