@@ -258,7 +258,7 @@
       "_postman_id": "033f97f8-9983-f56b-cb32-b22f1d9b8636",
       "name": "ъв",
       "request": {
-        "url": "{{localhost.url}}/auth/create_team",
+        "url": "{{base_url}}/auth/create_team",
         "method": "POST",
         "header": [
           {
