@@ -579,27 +579,6 @@
         "description": ""
       },
       "response": []
-    },
-    {
-      "_postman_id": "821cbf06-4c25-f596-eba9-c53aeb2e3771",
-      "name": "î9âÒö",
-      "request": {
-        "url": "{{base_url}}/team/{{team_uuid}}/plugin/11/update",
-        "method": "POST",
-        "header": [
-          {
-            "key": "Ones-User-Id",
-            "value": "{{userUUID}}"
-          },
-          {
-            "key": "Ones-Auth-Token",
-            "value": "{{token}}"
-          }
-        ],
-        "body": {},
-        "description": ""
-      },
-      "response": []
     }
   ]
 }
