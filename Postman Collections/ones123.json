@@ -258,7 +258,7 @@
       "_postman_id": "033f97f8-9983-f56b-cb32-b22f1d9b8636",
       "name": "úâ",
       "request": {
-        "url": "{{base_url}}/createtime",
+        "url": "{{base_url}}/team/{{team_uuid}}/delete_member",
         "method": "POST",
         "header": [
           {
@@ -269,7 +269,7 @@
         ],
         "body": {
           "mode": "raw",
-          "raw": ""
+          "raw": "{\n\t\"name\":\"þ\",\n\t\"team_name\":\"þ*ºâ\",\n\t\"email\":\"zenggang@ones.ai\",\n\t\"phone\":\"\",\n\t\"password\":\"zenggang\",\n\t\"exchange_code\":\"XJcds9U5\"\n}"
         },
         "description": ""
       },
@@ -575,37 +575,6 @@
         "body": {
           "mode": "raw",
           "raw": "{\n\t\"plugin_uuid\": \"12345678\",\n\t\"action\": \"add\",\n\t\"config\": {\n\t\t\"uuid\": \"BGfEDbRU\",\n\t\t\"app_id\": \"874881574\",\n\t\t\"app_name\": \"QQ\",\n\t\t\"assign\": \"ijnbhuyg\",\n\t\t\"is_begin_from\": false\n\t}\n}"
-        },
-        "description": ""
-      },
-      "response": []
-    },
-    {
-      "_postman_id": "821cbf06-4c25-f596-eba9-c53aeb2e3771",
-      "name": "î9âÒö",
-      "request": {
-        "url": "{{base_url}}/team/{{team_uuid}}/plugin/11/update",
-        "method": "POST",
-        "header": [
-          {
-            "key": "Ones-User-Id",
-            "value": "{{userUUID}}",
-            "description": ""
-          },
-          {
-            "key": "Ones-Auth-Token",
-            "value": "{{token}}",
-            "description": ""
-          },
-          {
-            "key": "Content-Type",
-            "value": "application/json",
-            "description": ""
-          }
-        ],
-        "body": {
-          "mode": "raw",
-          "raw": "{\n\t\"is_open\": true\n}"
         },
         "description": ""
       },
