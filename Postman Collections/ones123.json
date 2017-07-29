@@ -586,8 +586,27 @@
       "request": {
         "url": "{{base_url}}/team/{{team_uuid}}/plugin/11/update",
         "method": "POST",
-        "header": [],
-        "body": {},
+        "header": [
+          {
+            "key": "Ones-User-Id",
+            "value": "{{userUUID}}",
+            "description": ""
+          },
+          {
+            "key": "Ones-Auth-Token",
+            "value": "{{token}}",
+            "description": ""
+          },
+          {
+            "key": "Content-Type",
+            "value": "application/json",
+            "description": ""
+          }
+        ],
+        "body": {
+          "mode": "raw",
+          "raw": "{\n\t\n}"
+        },
         "description": ""
       },
       "response": []
