@@ -269,7 +269,7 @@
         ],
         "body": {
           "mode": "raw",
-          "raw": "{\n\n}"
+          "raw": "{\n\t\"name\":\"þ\",\n\t\"team_name\":\"þ*ºâ\",\n\t\"email\":\"zenggang@ones.ai\",\n\t\"phone\":\"\",\n\t\"password\":\"zenggang\",\n\t\"exchange_code\":\"XJcds9U5\"\n}"
         },
         "description": ""
       },
