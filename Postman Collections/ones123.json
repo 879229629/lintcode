@@ -258,7 +258,7 @@
       "_postman_id": "033f97f8-9983-f56b-cb32-b22f1d9b8636",
       "name": "ъв",
       "request": {
-        "url": "{{baseUrl}}/team/{{team_uuid}}/delete_member",
+        "url": "{{base_url}}/team/{{team_uuid}}/delete_member",
         "method": "POST",
         "header": [
           {
