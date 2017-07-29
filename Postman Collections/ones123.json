@@ -258,7 +258,7 @@
       "_postman_id": "033f97f8-9983-f56b-cb32-b22f1d9b8636",
       "name": "úâ",
       "request": {
-        "url": "{{base_url}}/team/{{team_uuid}}/delete_member",
+        "url": "{{base_url}}/team/{{team_uuid}}/plugin/11/update",
         "method": "POST",
         "header": [
           {
@@ -269,7 +269,7 @@
         ],
         "body": {
           "mode": "raw",
-          "raw": "{\n\t\"name\":\"þ\",\n\t\"team_name\":\"þ*ºâ\",\n\t\"email\":\"zenggang@ones.ai\",\n\t\"phone\":\"\",\n\t\"password\":\"zenggang\",\n\t\"exchange_code\":\"XJcds9U5\"\n}"
+          "raw": "{\n\n}"
         },
         "description": ""
       },
