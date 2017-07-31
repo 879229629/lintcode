@@ -497,11 +497,10 @@
       "name": "·Ö”(",
       "request": {
         "url": {
-          "raw": "{{localhost.url}}/app?appId=874881574",
+          "raw": "{{base_url}}/app?appId=874881574",
           "auth": {},
           "host": [
-            "{{localhost",
-            "url}}"
+            "{{base_url}}"
           ],
           "path": [
             "app"
@@ -528,11 +527,10 @@
       "name": "·ÖyîÒöMn",
       "request": {
         "url": {
-          "raw": "{{localhost.url}}/team/{{team_uuid}}/project/{{project_uuid}}/plugin/config?plugin_uuid=12345678",
+          "raw": "{{base_url}}/team/{{team_uuid}}/project/{{project_uuid}}/plugin/config?plugin_uuid=12345678",
           "auth": {},
           "host": [
-            "{{localhost",
-            "url}}"
+            "{{base_url}}"
           ],
           "path": [
             "team",
