@@ -615,18 +615,9 @@
       "_postman_id": "9973549a-643f-5f10-bbac-abca47c689d4",
       "name": "°úyî",
       "request": {
-        "url": "{{base_url}}/team/{{team_uuid}}/projects/add",
+        "url": "{{base_url}}/team/{{team_uuid}}/plugin/ER5ER8Ex/update",
         "method": "POST",
-        "header": [
-          {
-            "key": "Ones-User-Id",
-            "value": "{{userUUID}}"
-          },
-          {
-            "key": "Ones-Auth-Token",
-            "value": "{{token}}"
-          }
-        ],
+        "header": [],
         "body": {},
         "description": ""
       },
