@@ -527,11 +527,10 @@
       "name": "·ÖyîÒöMn",
       "request": {
         "url": {
-          "raw": "{{localhost.url}}/team/{{team_uuid}}/project/{{project_uuid}}/plugin/config?plugin_uuid=12345678",
+          "raw": "{{base_url}}/team/{{team_uuid}}/project/{{project_uuid}}/plugin/config?plugin_uuid=12345678",
           "auth": {},
           "host": [
-            "{{localhost",
-            "url}}"
+            "{{base_url}}"
           ],
           "path": [
             "team",
@@ -552,7 +551,16 @@
           "variable": []
         },
         "method": "GET",
-        "header": [],
+        "header": [
+          {
+            "key": "Ones-User-Id",
+            "value": "{{userUUID}}"
+          },
+          {
+            "key": "Ones-Auth-Token",
+            "value": "{{token}}"
+          }
+        ],
         "body": {},
         "description": ""
       },
