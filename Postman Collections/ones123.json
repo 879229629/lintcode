@@ -636,7 +636,7 @@
         ],
         "body": {
           "mode": "raw",
-          "raw": "{\n\t\n}"
+          "raw": "{\n\t\"projects\": [\n\t\t\t{\n\t\t\t\t\"uuid\": \"\",\n\t\t\t\t\"name\":\"°úyî\" ,\n\t\t\t\t\"owner\": {{user_uuid}},\n\t\t\t\t\"status\": 1\n\t\t\t}\n\t\t]\n}"
         },
         "description": ""
       },
