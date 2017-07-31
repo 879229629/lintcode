@@ -589,7 +589,7 @@
         ],
         "body": {
           "mode": "raw",
-          "raw": "{\n\t\"plugin_uuid\": \"12345678\",\n\t\"action\": \"add\",\n\t\"config\": {\n\t\t\"uuid\": \"BGfEDbRU\",\n\t\t\"app_id\": \"874881574\",\n\t\t\"app_name\": \"QQ\",\n\t\t\"assign\": \"ijnbhuyg\",\n\t\t\"is_begin_from\": false\n\t}\n}"
+          "raw": "{\n\t\"plugin_uuid\": \"ER5ER8Ex\",\n\t\"action\": \"add\",\n\t\"config\": {\n\t\t\"uuid\": \"BGfEDbRU\",\n\t\t\"app_id\": \"874881574\",\n\t\t\"app_name\": \"QQ\",\n\t\t\"assign\": \"ijnbhuyg\",\n\t\t\"is_begin_from\": false\n\t}\n}"
         },
         "description": ""
       },
