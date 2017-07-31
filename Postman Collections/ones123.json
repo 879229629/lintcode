@@ -653,6 +653,14 @@
             "key": "Content-Type",
             "value": "application/json",
             "description": ""
+          },
+          {
+            "key": "Ones-User-Id",
+            "value": "{{userUUID}}"
+          },
+          {
+            "key": "Ones-Auth-Token",
+            "value": "{{token}}"
           }
         ],
         "body": {
