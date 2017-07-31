@@ -527,10 +527,11 @@
       "name": "·ÖyîÒöMn",
       "request": {
         "url": {
-          "raw": "{{base_url}}/team/{{team_uuid}}/project/{{project_uuid}}/plugin/config?plugin_uuid=12345678",
+          "raw": "{{localhost.url}}/team/{{team_uuid}}/project/{{project_uuid}}/plugin/config?plugin_uuid=12345678",
           "auth": {},
           "host": [
-            "{{base_url}}"
+            "{{localhost",
+            "url}}"
           ],
           "path": [
             "team",
