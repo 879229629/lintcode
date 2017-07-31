@@ -570,7 +570,7 @@
       "_postman_id": "e019a77d-334e-acf1-78a1-fc848b6ac9a2",
       "name": "ô°yîÒöMn",
       "request": {
-        "url": "{{localhost.url}}/team/{{team_uuid}}/project/{{project_uuid}}/plugin/config",
+        "url": "{{base_url}}/team/{{team_uuid}}/project/ER5ER8Ex12345679/plugin/config",
         "method": "POST",
         "header": [
           {
