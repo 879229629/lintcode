@@ -527,7 +527,7 @@
       "name": "·ÖyîÒöMn",
       "request": {
         "url": {
-          "raw": "{{base_url}}/team/{{team_uuid}}/project/ER5ER8Ex12345679/plugin/config?plugin_uuid=12345678",
+          "raw": "{{base_url}}/team/{{team_uuid}}/project/ER5ER8Ex12345679/plugin/config?plugin_uuid=ER5ER8Ex",
           "auth": {},
           "host": [
             "{{base_url}}"
@@ -543,7 +543,7 @@
           "query": [
             {
               "key": "plugin_uuid",
-              "value": "12345678",
+              "value": "ER5ER8Ex",
               "equals": true,
               "description": ""
             }
