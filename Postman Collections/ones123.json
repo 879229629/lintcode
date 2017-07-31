@@ -648,8 +648,17 @@
       "request": {
         "url": "{{base_url}}/team/{{team_uuid}}/project/ER5ER8Ex12345678/plugin",
         "method": "POST",
-        "header": [],
-        "body": {},
+        "header": [
+          {
+            "key": "Content-Type",
+            "value": "application/json",
+            "description": ""
+          }
+        ],
+        "body": {
+          "mode": "raw",
+          "raw": "{\n\t\n}"
+        },
         "description": ""
       },
       "response": []
