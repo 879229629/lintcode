@@ -647,7 +647,7 @@
       "name": "î9yîÒö",
       "request": {
         "url": "{{base_url}}/team/{{team_uuid}}/project/ER5ER8Ex12345678/plugin",
-        "method": "GET",
+        "method": "POST",
         "header": [],
         "body": {},
         "description": ""
