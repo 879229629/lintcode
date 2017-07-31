@@ -662,6 +662,27 @@
         "description": ""
       },
       "response": []
+    },
+    {
+      "_postman_id": "8a372e22-551c-e45f-d5a3-ff5c01916e2b",
+      "name": "yîÒöh",
+      "request": {
+        "url": "{{base_url}}/team/{{team_uuid}}/project/ER5ER8Ex12345678/plugins",
+        "method": "GET",
+        "header": [
+          {
+            "key": "Ones-User-Id",
+            "value": "{{userUUID}}"
+          },
+          {
+            "key": "Ones-Auth-Token",
+            "value": "{{token}}"
+          }
+        ],
+        "body": {},
+        "description": ""
+      },
+      "response": []
     }
   ]
 }
