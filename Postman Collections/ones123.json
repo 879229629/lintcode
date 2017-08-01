@@ -710,6 +710,18 @@
         "description": ""
       },
       "response": []
+    },
+    {
+      "_postman_id": "ca9e73a4-ddad-a117-7fd4-35730fba36ed",
+      "name": "yî view",
+      "request": {
+        "url": "{{base_url}}/team/{{team_uuid}}/project/xx/view",
+        "method": "GET",
+        "header": [],
+        "body": {},
+        "description": ""
+      },
+      "response": []
     }
   ]
 }
