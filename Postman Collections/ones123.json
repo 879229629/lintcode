@@ -25,11 +25,11 @@
               "var teamUUID = jsonData.teams[0].uuid;",
               "",
               "",
-              "postman.setGlobalVariable(\"userUUID\", userUUID);",
+              "postman.setGlobalVariable(\"user_uuid\", userUUID);",
               "",
               "postman.setGlobalVariable(\"token\", token);",
               "",
-              "postman.setGlobalVariable(\"teamUUID\", teamUUID);",
+              "postman.setGlobalVariable(\"team_uuid\", teamUUID);",
               ""
             ]
           }
@@ -570,7 +570,7 @@
       "_postman_id": "e019a77d-334e-acf1-78a1-fc848b6ac9a2",
       "name": "ô°yîÒöMn",
       "request": {
-        "url": "{{base_url}}/team/{{team_uuid}}/project/ER5ER8Ex12345679/plugin/config",
+        "url": "{{base_url}}/team/{{team_uuid}}/project/F7jo7W5H12345679/plugin/config",
         "method": "POST",
         "header": [
           {
@@ -580,11 +580,13 @@
           },
           {
             "key": "Ones-User-Id",
-            "value": "{{userUUID}}"
+            "value": "{{userUUID}}",
+            "description": ""
           },
           {
             "key": "Ones-Auth-Token",
-            "value": "{{token}}"
+            "value": "{{token}}",
+            "description": ""
           }
         ],
         "body": {
@@ -651,7 +653,7 @@
         ],
         "body": {
           "mode": "raw",
-          "raw": "{\n\t\"projects\": [\n\t\t\t{\n\t\t\t\t\"uuid\": \"ER5ER8Ex12345679\",\n\t\t\t\t\"name\":\"°úyî\" ,\n\t\t\t\t\"owner\": \"ER5ER8Ex\",\n\t\t\t\t\"status\": 1,\n\t\t\t\t\"members\": []\n\t\t\t}\n\t\t]\n}"
+          "raw": "{\n\t\"projects\": [\n\t\t\t{\n\t\t\t\t\"uuid\": \"F7jo7W5H12345679\",\n\t\t\t\t\"name\":\"°úyî\" ,\n\t\t\t\t\"owner\": \"ER5ER8Ex\",\n\t\t\t\t\"status\": 1,\n\t\t\t\t\"members\": []\n\t\t\t}\n\t\t]\n}"
         },
         "description": ""
       },
