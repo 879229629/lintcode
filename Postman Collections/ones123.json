@@ -269,7 +269,7 @@
         ],
         "body": {
           "mode": "raw",
-          "raw": ""
+          "raw": "{\n\t\n}"
         },
         "description": ""
       },
