@@ -715,7 +715,7 @@
       "_postman_id": "ca9e73a4-ddad-a117-7fd4-35730fba36ed",
       "name": "yî view",
       "request": {
-        "url": "{{base_url}}/team/{{team_uuid}}/project/F7jo7W5H12345678/view",
+        "url": "{{base_url}}/team/{{team_uuid}}/project/F7jo7W5H12345679/view",
         "method": "GET",
         "header": [
           {
