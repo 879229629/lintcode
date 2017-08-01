@@ -608,7 +608,7 @@
         "header": [
           {
             "key": "Ones-User-Id",
-            "value": "{{user_uuid}}",
+            "value": "{{userUUID}}",
             "description": ""
           },
           {
