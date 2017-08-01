@@ -527,7 +527,7 @@
       "name": "·ÖyîÒöMn",
       "request": {
         "url": {
-          "raw": "{{base_url}}/team/{{team_uuid}}/project/ER5ER8Ex12345679/plugin/config?plugin_uuid=ER5ER8Ex",
+          "raw": "{{base_url}}/team/{{team_uuid}}/project/F7jo7W5H12345679/plugin/config?plugin_uuid=ER5ER8Ex",
           "auth": {},
           "host": [
             "{{base_url}}"
@@ -536,7 +536,7 @@
             "team",
             "{{team_uuid}}",
             "project",
-            "ER5ER8Ex12345679",
+            "F7jo7W5H12345679",
             "plugin",
             "config"
           ],
@@ -554,11 +554,13 @@
         "header": [
           {
             "key": "Ones-User-Id",
-            "value": "{{userUUID}}"
+            "value": "{{userUUID}}",
+            "description": ""
           },
           {
             "key": "Ones-Auth-Token",
-            "value": "{{token}}"
+            "value": "{{token}}",
+            "description": ""
           }
         ],
         "body": {},
