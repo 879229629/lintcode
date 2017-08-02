@@ -582,7 +582,7 @@
           },
           {
             "key": "Ones-User-Id",
-            "value": "{{user-uuid}}",
+            "value": "{{user_uuid}}",
             "description": ""
           },
           {
