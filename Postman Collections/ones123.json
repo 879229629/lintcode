@@ -665,7 +665,7 @@
       "_postman_id": "802d8ec1-32b7-46fe-075f-46aca8d7cad8",
       "name": "î9yîÒö",
       "request": {
-        "url": "{{base_url}}/team/{{team_uuid}}/project/ER5ER8Ex12345679/plugins/update",
+        "url": "{{base_url}}/team/{{team_uuid}}/project/F7jo7W5H12345677/plugins/update",
         "method": "POST",
         "header": [
           {
@@ -675,11 +675,13 @@
           },
           {
             "key": "Ones-User-Id",
-            "value": "{{userUUID}}"
+            "value": "{{user_uuid}}",
+            "description": ""
           },
           {
             "key": "Ones-Auth-Token",
-            "value": "{{token}}"
+            "value": "{{token}}",
+            "description": ""
           }
         ],
         "body": {
