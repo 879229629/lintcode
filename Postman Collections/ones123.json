@@ -620,6 +620,11 @@
             "key": "Content-Type",
             "value": "application/json",
             "description": ""
+          },
+          {
+            "key": "Accept-Language",
+            "value": "es",
+            "description": ""
           }
         ],
         "body": {
