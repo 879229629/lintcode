@@ -572,7 +572,7 @@
       "_postman_id": "e019a77d-334e-acf1-78a1-fc848b6ac9a2",
       "name": "ô°yîÒöMn",
       "request": {
-        "url": "{{base_url}}/team/{{team_uuid}}/project/F7jo7W5H12345677/plugin/config",
+        "url": "{{base_url}}/team/{{team_uuid}}/project/F7jo7W5H12345676/plugin/config/update",
         "method": "POST",
         "header": [
           {
