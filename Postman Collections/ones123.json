@@ -660,7 +660,7 @@
         ],
         "body": {
           "mode": "raw",
-          "raw": "{\n\t\"projects\": [\n\t\t\t{\n\t\t\t\t\"uuid\": \"F7jo7W5H12345676\",\n\t\t\t\t\"name\":\"°úyî\" ,\n\t\t\t\t\"owner\": \"ER5ER8Ex\",\n\t\t\t\t\"status\": 1,\n\t\t\t\t\"members\": [],\n\t\t\t\t\"templates\": [\"t-0001\"]\n\t\t\t}\n\t\t]\n}"
+          "raw": "{\n\t\"project\": [\n\t\t\t{\n\t\t\t\t\"uuid\": \"F7jo7W5H12345676\",\n\t\t\t\t\"name\":\"°úyî\" ,\n\t\t\t\t\"owner\": \"ER5ER8Ex\",\n\t\t\t\t\"status\": 1,\n\t\t\t\t\"members\": [],\n\t\t\t\t\"templates\": [\"t-0001\"]\n\t\t\t}\n\t\t]\n}"
         },
         "description": ""
       },
