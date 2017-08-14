@@ -269,7 +269,7 @@
         ],
         "body": {
           "mode": "raw",
-          "raw": "{\n\t\"name\": \"þ\",\n\t\"team_name\": \"Project 2.0 team\",\n\t\"email\": \"zenggang@ones.ai\",\n\t\"password\": \"zenggang\",\n\t\"exchange_code\": \"XJcds9U5\"\n}"
+          "raw": "{\n\t\"name\": \"þ\",\n\t\"team_name\": \"Project 2.0 team\",\n\t\"email\": \"zenggang+dev@ones.ai\",\n\t\"password\": \"zenggang\",\n\t\"exchange_code\": \"wiyd0008\"\n}"
         },
         "description": ""
       },
