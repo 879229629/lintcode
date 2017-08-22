@@ -660,7 +660,7 @@
         ],
         "body": {
           "mode": "raw",
-          "raw": "{\n\t\"project\":\t{\n\t\t\t\t\"uuid\": \"F7jo7W5H12345676\",\n\t\t\t\t\"name\":\"°úyî\" ,\n\t\t\t\t\"owner\": \"ER5ER8Ex\",\n\t\t\t\t\"status\": 1,\n\t\t\t\t\"members\": []\n\t\t\t},\n\t\"templates\": [\"t-0001\"]\n}"
+          "raw": "{\n\t\"project\":\t{\n\t\t\t\t\"uuid\": \"F7jo7W5H12345675\",\n\t\t\t\t\"name\":\"°úyî\" ,\n\t\t\t\t\"owner\": \"ER5ER8Ex\",\n\t\t\t\t\"status\": 1,\n\t\t\t\t\"members\": []\n\t\t\t},\n\t\"templates\": [\"t-0001\"]\n}"
         },
         "description": ""
       },
@@ -670,7 +670,7 @@
       "_postman_id": "802d8ec1-32b7-46fe-075f-46aca8d7cad8",
       "name": "î9yîÒö",
       "request": {
-        "url": "{{base_url}}/team/{{team_uuid}}/project/F7jo7W5H12345676/plugins/update",
+        "url": "{{base_url}}/team/{{team_uuid}}/project/F7jo7W5H12345675/plugins/update",
         "method": "POST",
         "header": [
           {
