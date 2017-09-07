@@ -670,7 +670,7 @@
       "_postman_id": "802d8ec1-32b7-46fe-075f-46aca8d7cad8",
       "name": "î9yîÒö",
       "request": {
-        "url": "{{base_url}}/team/{{team_uuid}}/project/QEfqHHfN12345677/plugins/update",
+        "url": "{{base_url}}/team/{{team_uuid}}/project/QEfqHHfN12345676/plugins/update",
         "method": "POST",
         "header": [
           {
