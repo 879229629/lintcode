@@ -834,6 +834,18 @@
         "description": ""
       },
       "response": []
+    },
+    {
+      "_postman_id": "9e6fcca2-77e0-cee7-5960-23eb6c143415",
+      "name": "î9 field",
+      "request": {
+        "url": "{{base_url}}/team/{{team_uuid}}/field/XQTduFjw/update",
+        "method": "GET",
+        "header": [],
+        "body": {},
+        "description": ""
+      },
+      "response": []
     }
   ]
 }
