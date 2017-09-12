@@ -743,7 +743,7 @@
       "_postman_id": "d2154ddb-28fa-d959-bd78-de1096d1883f",
       "name": "î9s.^'",
       "request": {
-        "url": "{{base_url}}/team/{{team_uuid}}/project/QEfqHHfN12345676/issue_type/yy/important_fields/update",
+        "url": "{{base_url}}/team/{{team_uuid}}/project/QEfqHHfN12345676/issue_type/6gKGmzkt/important_fields/update",
         "method": "POST",
         "header": [
           {
@@ -764,7 +764,7 @@
         ],
         "body": {
           "mode": "raw",
-          "raw": "{\n\t\n\t\n}"
+          "raw": "{\n\t\n\t\"fields\": [\"field004\", \"field007\"]\n}"
         },
         "description": ""
       },
