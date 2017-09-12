@@ -844,14 +844,24 @@
         "header": [
           {
             "key": "Ones-User-Id",
-            "value": "{{user_uuid}}"
+            "value": "{{user_uuid}}",
+            "description": ""
           },
           {
             "key": "Ones-Auth-Token",
-            "value": "{{token}}"
+            "value": "{{token}}",
+            "description": ""
+          },
+          {
+            "key": "Content-Type",
+            "value": "application/json",
+            "description": ""
           }
         ],
-        "body": {},
+        "body": {
+          "mode": "raw",
+          "raw": "{\n\t\n}"
+        },
         "description": ""
       },
       "response": []
