@@ -860,7 +860,7 @@
         ],
         "body": {
           "mode": "raw",
-          "raw": "{\n\t\n}"
+          "raw": "        {\n            \"uuid\": \"XQTduFjw\",\n            \"name\": \"Äº¹\",\n            \"type\": 1,\n            \"options\": [\n                {\n                    \"uuid\": \"Lp5tcefG\",\n                    \"value\": \"l: B\",\n                    \"selected\": false,\n                    \"background_color\": \"\",\n                    \"color\": \"\"\n                },\n                {\n                    \"uuid\": \"MEqCHRF7\",\n                    \"value\": \"ˆ¥×\",\n                    \"selected\": false,\n                    \"background_color\": \"\",\n                    \"color\": \"\"\n                },\n                {\n                    \"uuid\": \"PaC7nVNw\",\n                    \"value\": \"ö\",\n                    \"selected\": false,\n                    \"background_color\": \"\",\n                    \"color\": \"\"\n                }\n            ]\n        }"
         },
         "description": ""
       },
