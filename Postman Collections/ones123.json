@@ -769,6 +769,27 @@
         "description": ""
       },
       "response": []
+    },
+    {
+      "_postman_id": "8eabd9e0-583a-f195-3045-8c48b62022cf",
+      "name": "\b·Ös.^'",
+      "request": {
+        "url": "{{base_url}}/team/{{team_uuid}}/project/QEfqHHfN12345676/issue_type/yy/important_fields",
+        "method": "GET",
+        "header": [
+          {
+            "key": "Ones-User-Id",
+            "value": "{{user_uuid}}"
+          },
+          {
+            "key": "Ones-Auth-Token",
+            "value": "{{token}}"
+          }
+        ],
+        "body": {},
+        "description": ""
+      },
+      "response": []
     }
   ]
 }
