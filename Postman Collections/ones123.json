@@ -841,7 +841,16 @@
       "request": {
         "url": "{{base_url}}/team/{{team_uuid}}/field/XQTduFjw/update",
         "method": "GET",
-        "header": [],
+        "header": [
+          {
+            "key": "Ones-User-Id",
+            "value": "{{user_uuid}}"
+          },
+          {
+            "key": "Ones-Auth-Token",
+            "value": "{{token}}"
+          }
+        ],
         "body": {},
         "description": ""
       },
