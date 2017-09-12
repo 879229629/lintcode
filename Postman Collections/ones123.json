@@ -840,7 +840,7 @@
       "name": "î9 field",
       "request": {
         "url": "{{base_url}}/team/{{team_uuid}}/field/XQTduFjw/update",
-        "method": "GET",
+        "method": "POST",
         "header": [
           {
             "key": "Ones-User-Id",
