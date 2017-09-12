@@ -811,6 +811,27 @@
         "description": ""
       },
       "response": []
+    },
+    {
+      "_postman_id": "6596a7ac-5149-6830-1623-27ae6e919b9a",
+      "name": "{{base_url}}/team/{{team_uuid}}/fields",
+      "request": {
+        "url": "{{base_url}}/team/{{team_uuid}}/fields",
+        "method": "GET",
+        "header": [
+          {
+            "key": "Ones-User-Id",
+            "value": "{{user_uuid}}"
+          },
+          {
+            "key": "Ones-Auth-Token",
+            "value": "{{token}}"
+          }
+        ],
+        "body": {},
+        "description": ""
+      },
+      "response": []
     }
   ]
 }
