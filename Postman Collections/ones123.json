@@ -790,6 +790,27 @@
         "description": ""
       },
       "response": []
+    },
+    {
+      "_postman_id": "bc348218-e671-4eb8-3413-8ca90ef6b51a",
+      "name": "·Öfield config",
+      "request": {
+        "url": "{{base_url}}/team/{{team_uuid}}/field_configs",
+        "method": "GET",
+        "header": [
+          {
+            "key": "Ones-User-Id",
+            "value": "{{user_uuid}}"
+          },
+          {
+            "key": "Ones-Auth-Token",
+            "value": "{{token}}"
+          }
+        ],
+        "body": {},
+        "description": ""
+      },
+      "response": []
     }
   ]
 }
