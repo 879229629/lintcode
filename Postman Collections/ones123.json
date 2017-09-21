@@ -232,29 +232,6 @@
       "response": []
     },
     {
-      "_postman_id": "6e6611e1-011c-6452-0fad-c1730cd4b211",
-      "name": "KХ",
-      "request": {
-        "url": "https://dev.api.ones.ai/wiki/dev_1.0.0/team/xxx/spaces",
-        "method": "GET",
-        "header": [
-          {
-            "key": "Ones-User-Id",
-            "value": "dd",
-            "description": ""
-          },
-          {
-            "key": "Ones-Auth-Token",
-            "value": "dd",
-            "description": ""
-          }
-        ],
-        "body": {},
-        "description": ""
-      },
-      "response": []
-    },
-    {
       "_postman_id": "033f97f8-9983-f56b-cb32-b22f1d9b8636",
       "name": "ъв",
       "request": {
