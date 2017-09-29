@@ -826,7 +826,7 @@
     },
     {
       "_postman_id": "69c0a8f8-560e-f3c2-ac53-178137d39187",
-      "name": "{{base_url}}/team/{{team_uuid}}/tasks/info",
+      "name": "·Öû¡æÅ",
       "request": {
         "url": "{{base_url}}/team/{{team_uuid}}/tasks/info",
         "method": "GET",
