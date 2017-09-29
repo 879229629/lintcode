@@ -570,7 +570,7 @@
         ],
         "body": {
           "mode": "raw",
-          "raw": "{\n\t\"plugin_uuid\": \"ER5ER8Ex\",\n\t\"action\": \"add\",\n\t\"config\": {\n\t\t\"app_id\": \"874881574\",\n\t\t\"app_name\": \"QQ\",\n\t\t\"assign\": \"F7jo7W5H\",\n\t\t\"is_begin_from\": true\n\t}\n}"
+          "raw": "{\n\t\"plugin_uuid\": \"ER5ER8Ex\",\n\t\"action\": \"add\",\n\t\"config\": {\n\t\t\"app_id\": \"874881574\",\n\t\t\"app_name\": \"QQ\",\n\t\t\"assign\": \"DVEEWw4M\",\n\t\t\"is_begin_from\": true\n\t}\n}"
         },
         "description": ""
       },
