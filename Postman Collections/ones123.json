@@ -842,6 +842,29 @@
         "description": ""
       },
       "response": []
+    },
+    {
+      "_postman_id": "72dcfb15-4902-1080-9e84-1b7d08a4ae48",
+      "name": "\b·Ös.^'",
+      "request": {
+        "url": "{{base_url}}/team/{{team_uuid}}/project/QEfqHHfN12345676/issue_type/yy/important_fields",
+        "method": "GET",
+        "header": [
+          {
+            "key": "Ones-User-Id",
+            "value": "{{user_uuid}}",
+            "description": ""
+          },
+          {
+            "key": "Ones-Auth-Token",
+            "value": "{{token}}",
+            "description": ""
+          }
+        ],
+        "body": {},
+        "description": ""
+      },
+      "response": []
     }
   ]
 }
