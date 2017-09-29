@@ -678,7 +678,7 @@
       "_postman_id": "8a372e22-551c-e45f-d5a3-ff5c01916e2b",
       "name": "yîÒöh",
       "request": {
-        "url": "{{base_url}}/team/{{team_uuid}}/project/ER5ER8Ex12345679/plugins",
+        "url": "{{base_url}}/team/{{team_uuid}}/project/DVEEWw4M12345675/plugins",
         "method": "GET",
         "header": [
           {
