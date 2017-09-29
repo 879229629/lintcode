@@ -504,7 +504,7 @@
       "name": "·ÖyîÒöMn",
       "request": {
         "url": {
-          "raw": "{{base_url}}/team/{{team_uuid}}/project/F7jo7W5H12345676/plugin/config?plugin_uuid=ER5ER8Ex",
+          "raw": "{{base_url}}/team/{{team_uuid}}/project/DVEEWw4M12345675/plugin/config?plugin_uuid=ER5ER8Ex",
           "auth": {},
           "host": [
             "{{base_url}}"
@@ -513,7 +513,7 @@
             "team",
             "{{team_uuid}}",
             "project",
-            "F7jo7W5H12345676",
+            "DVEEWw4M12345675",
             "plugin",
             "config"
           ],
