@@ -895,7 +895,7 @@
         ],
         "body": {
           "mode": "raw",
-          "raw": "{\n\t\"name\":\"xx\",\n\t\"query\":{\"must\":[{\"equal\":{\"field_values.field007\":\"KgDzH3oE\"}},{\"equal\":{\"field_values.field006\":\"X6swogWYySvEwqNK\"}}]},\n\t\"group_by\":\"\",\n\t\"sort\":[{\"create_time\":{\"order\":\"desc\"}}]\n\t}\n\t"
+          "raw": "{\n\t\"name\":\"xx\",\n\t\"query\":{\"must\":[{\"equal\":{\"field_values.field007\":\"KgDzH3oE\"}}]},\n\t\"group_by\":\"\",\n\t\"sort\":[{\"create_time\":{\"order\":\"desc\"}}]\n\t}\n\t"
         },
         "description": ""
       },
