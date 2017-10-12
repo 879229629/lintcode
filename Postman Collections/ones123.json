@@ -869,6 +869,37 @@
         "description": ""
       },
       "response": []
+    },
+    {
+      "_postman_id": "f9711f2d-038a-fce7-a326-d51e65aa16ff",
+      "name": "û¡üú",
+      "request": {
+        "url": "{{base_url}}/team/{{team_uuid}}/filters/export",
+        "method": "POST",
+        "header": [
+          {
+            "key": "Ones-User-Id",
+            "value": "{{user_uuid}}",
+            "description": ""
+          },
+          {
+            "key": "Ones-Auth-Token",
+            "value": "{{token}}",
+            "description": ""
+          },
+          {
+            "key": "Content-Type",
+            "value": "application/json",
+            "description": ""
+          }
+        ],
+        "body": {
+          "mode": "raw",
+          "raw": "{\n\t\n}"
+        },
+        "description": ""
+      },
+      "response": []
     }
   ]
 }
