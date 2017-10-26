@@ -504,7 +504,7 @@
       "name": "·ÖyîÒöMn",
       "request": {
         "url": {
-          "raw": "{{base_url}}/team/{{team_uuid}}/project/DVEEWw4M12345675/plugin/config?plugin_uuid=ER5ER8Ex",
+          "raw": "{{base_url}}/team/{{team_uuid}}/project/AVFenPAg12345675/plugin/config?plugin_uuid=QEfqHHfN",
           "auth": {},
           "host": [
             "{{base_url}}"
@@ -513,14 +513,14 @@
             "team",
             "{{team_uuid}}",
             "project",
-            "DVEEWw4M12345675",
+            "AVFenPAg12345675",
             "plugin",
             "config"
           ],
           "query": [
             {
               "key": "plugin_uuid",
-              "value": "ER5ER8Ex",
+              "value": "QEfqHHfN",
               "equals": true,
               "description": ""
             }
