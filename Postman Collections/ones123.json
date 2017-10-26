@@ -903,7 +903,7 @@
     },
     {
       "_postman_id": "94cd633b-397d-46fe-fb33-cd659700dc34",
-      "name": "âúh",
+      "name": "âÒöh",
       "request": {
         "url": "{{base_url}}/team/{{team_uuid}}/plugins",
         "method": "GET",
