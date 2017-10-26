@@ -580,7 +580,7 @@
       "_postman_id": "821cbf06-4c25-f596-eba9-c53aeb2e3771",
       "name": "î9âÒö",
       "request": {
-        "url": "{{base_url}}/team/{{team_uuid}}/plugin/ER5ER8Ex/update",
+        "url": "{{base_url}}/team/{{team_uuid}}/plugin/QEfqHHfN/update",
         "method": "POST",
         "header": [
           {
