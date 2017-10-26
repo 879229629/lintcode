@@ -900,6 +900,27 @@
         "description": ""
       },
       "response": []
+    },
+    {
+      "_postman_id": "94cd633b-397d-46fe-fb33-cd659700dc34",
+      "name": "âúh",
+      "request": {
+        "url": "{{base_url}}/team/{{team_uuid}}/plugins",
+        "method": "GET",
+        "header": [
+          {
+            "key": "Ones-User-Id",
+            "value": "{{user_uuid}}"
+          },
+          {
+            "key": "Ones-Auth-Token",
+            "value": "{{token}}"
+          }
+        ],
+        "body": {},
+        "description": ""
+      },
+      "response": []
     }
   ]
 }
