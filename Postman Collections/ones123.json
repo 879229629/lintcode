@@ -936,7 +936,7 @@
           },
           {
             "key": "X-Hub-Signature",
-            "value": "111",
+            "value": "sha1=6d49a53d1f409ad30b327e648852dc3363af95de",
             "description": ""
           }
         ],
