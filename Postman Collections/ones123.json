@@ -36,19 +36,18 @@
         }
       ],
       "request": {
-        "url": "{{base_url}}/auth/login",
         "method": "POST",
         "header": [
           {
             "key": "Content-Type",
-            "value": "application/json",
-            "description": ""
+            "value": "application/json"
           }
         ],
         "body": {
           "mode": "raw",
           "raw": "{\n\t\"email\": \"zenggang+dev@ones.ai\",\n\t\"password\": \"zenggang\"\n}"
         },
+        "url": "{{base_url}}/auth/login",
         "description": ""
       },
       "response": [
@@ -56,7 +55,6 @@
           "id": "a69146ab-c224-d155-a547-88df40172ed8",
           "name": "ret",
           "originalRequest": {
-            "url": "{{localhost.url}}/auth/login",
             "method": "POST",
             "header": [
               {
@@ -69,12 +67,12 @@
             "body": {
               "mode": "raw",
               "raw": "{\n\t\"email\": \"zenggang@ones.ai\",\n\t\"password\": \"12345678\"\n}"
-            }
+            },
+            "url": "{{localhost.url}}/auth/login"
           },
           "status": "OK",
           "code": 200,
           "_postman_previewlanguage": "json",
-          "_postman_previewtype": "text",
           "header": [
             {
               "name": "Cache-Control",
@@ -144,21 +142,19 @@
         }
       ],
       "request": {
-        "url": "{{base_url}}/users/me",
         "method": "GET",
         "header": [
           {
             "key": "Ones-User-Id",
-            "value": "{{user_uuid}}",
-            "description": ""
+            "value": "{{user_uuid}}"
           },
           {
             "key": "Ones-Auth-Token",
-            "value": "{{token}}",
-            "description": ""
+            "value": "{{token}}"
           }
         ],
         "body": {},
+        "url": "{{base_url}}/users/me",
         "description": ""
       },
       "response": []
@@ -176,34 +172,30 @@
             "showPassword": false
           }
         },
-        "url": "{{localhost.url}}/team/4QAboUYX/filters/export",
         "method": "POST",
         "header": [
           {
             "key": "Content-Type",
-            "value": "application/json",
-            "description": ""
+            "value": "application/json"
           },
           {
             "key": "Ones-User-Id",
-            "value": "{{userUUID}}",
-            "description": ""
+            "value": "{{userUUID}}"
           },
           {
             "key": "Ones-Auth-Token",
-            "value": "{{token}}",
-            "description": ""
+            "value": "{{token}}"
           },
           {
             "key": "Authorization",
-            "value": "Basic cG9zdG1hbjpwYXNzd29yZA==",
-            "description": ""
+            "value": "Basic cG9zdG1hbjpwYXNzd29yZA=="
           }
         ],
         "body": {
           "mode": "raw",
           "raw": "{\n\t\"name\": \"xxxyy\",\n\t\"query\":{\"should\":[{\"must\":[{\"equal\":{\"project_uuid\":\"PgCFAGmwGnaiaMil\"}}]}]},\"start\":0,\"limit\":50\n\t\t\n\t}\n"
         },
+        "url": "{{localhost.url}}/team/4QAboUYX/filters/export",
         "description": "zýhüú"
       },
       "response": []
@@ -212,21 +204,19 @@
       "_postman_id": "85a34ef8-4f52-a7a3-8041-21e98f686aaf",
       "name": "¤Á token",
       "request": {
-        "url": "{{localhost.url}}/auth",
         "method": "POST",
         "header": [
           {
             "key": "Ones-User-Id",
-            "value": "{{userUUID}}",
-            "description": ""
+            "value": "{{userUUID}}"
           },
           {
             "key": "Ones-Auth-Token",
-            "value": "{{token}}",
-            "description": ""
+            "value": "{{token}}"
           }
         ],
         "body": {},
+        "url": "{{localhost.url}}/auth",
         "description": ""
       },
       "response": []
@@ -235,19 +225,18 @@
       "_postman_id": "033f97f8-9983-f56b-cb32-b22f1d9b8636",
       "name": "úâ",
       "request": {
-        "url": "{{base_url}}/auth/create_team",
         "method": "POST",
         "header": [
           {
             "key": "Content-Type",
-            "value": "application/json",
-            "description": ""
+            "value": "application/json"
           }
         ],
         "body": {
           "mode": "raw",
           "raw": "{\n\t\"name\": \"þ\",\n\t\"team_name\": \"Project 2.0 team\",\n\t\"email\": \"zenggang+dev@ones.ai\",\n\t\"password\": \"zenggang\",\n\t\"exchange_code\": \"wiyd0008\"\n}"
         },
+        "url": "{{base_url}}/auth/create_team",
         "description": ""
       },
       "response": []
@@ -273,29 +262,26 @@
         }
       ],
       "request": {
-        "url": "{{localhost.url}}/team/{{team_uuid}}/invitations/add",
         "method": "POST",
         "header": [
           {
             "key": "Ones-User-Id",
-            "value": "{{userUUID}}",
-            "description": ""
+            "value": "{{userUUID}}"
           },
           {
             "key": "Ones-Auth-Token",
-            "value": "{{token}}",
-            "description": ""
+            "value": "{{token}}"
           },
           {
             "key": "Content-Type",
-            "value": "application/json",
-            "description": ""
+            "value": "application/json"
           }
         ],
         "body": {
           "mode": "raw",
           "raw": "{\n\t\"email\":\"zenggang+01@ones.ai\"\n}"
         },
+        "url": "{{localhost.url}}/team/{{team_uuid}}/invitations/add",
         "description": ""
       },
       "response": []
@@ -304,29 +290,26 @@
       "_postman_id": "824ffa16-85f7-e0a0-8697-a561e8f7b61d",
       "name": " eâ",
       "request": {
-        "url": "{{localhost.url}}/auth/invite_join_team",
         "method": "POST",
         "header": [
           {
             "key": "Ones-User-Id",
-            "value": "{{userUUID}}",
-            "description": ""
+            "value": "{{userUUID}}"
           },
           {
             "key": "Ones-Auth-Token",
-            "value": "{{token}}",
-            "description": ""
+            "value": "{{token}}"
           },
           {
             "key": "Content-Type",
-            "value": "application/json",
-            "description": ""
+            "value": "application/json"
           }
         ],
         "body": {
           "mode": "raw",
           "raw": "{\n\t\"email\":\"zenggang+01@ones.ai\",\n\t\"phone\":\"\",\n\t\"name\":\"zenggang+01\",\n\t\"password\":\"zenggang\",\n\t\"invite_code\":\"{{inviteCode}}\"\n}"
         },
+        "url": "{{localhost.url}}/auth/invite_join_team",
         "description": ""
       },
       "response": []
@@ -335,29 +318,26 @@
       "_postman_id": "b18fee0a-13fd-7076-327c-2c4293214abd",
       "name": "ÍnÆ",
       "request": {
-        "url": "{{localhost.url}}/auth/request_reset_code",
         "method": "POST",
         "header": [
           {
             "key": "Ones-User-Id",
-            "value": "{{userUUID}}",
-            "description": ""
+            "value": "{{userUUID}}"
           },
           {
             "key": "Ones-Auth-Token",
-            "value": "{{token}}",
-            "description": ""
+            "value": "{{token}}"
           },
           {
             "key": "Content-Type",
-            "value": "application/json",
-            "description": ""
+            "value": "application/json"
           }
         ],
         "body": {
           "mode": "raw",
           "raw": "{\n\t\"email\":\"zenggang+01@ones.ai\"\n}"
         },
+        "url": "{{localhost.url}}/auth/request_reset_code",
         "description": ""
       },
       "response": []
@@ -366,29 +346,26 @@
       "_postman_id": "88b5caca-9ce7-6672-46ec-4e161fd6b9c2",
       "name": " dâX",
       "request": {
-        "url": "{{localhost.url}}/team/{{team_uuid}}/delete_member",
         "method": "POST",
         "header": [
           {
             "key": "Ones-User-Id",
-            "value": "{{userUUID}}",
-            "description": ""
+            "value": "{{userUUID}}"
           },
           {
             "key": "Ones-Auth-Token",
-            "value": "{{token}}",
-            "description": ""
+            "value": "{{token}}"
           },
           {
             "key": "Content-Type",
-            "value": "application/json",
-            "description": ""
+            "value": "application/json"
           }
         ],
         "body": {
           "mode": "raw",
           "raw": "{\n\t\"member\":\"9dNNp7Bc\"\n}"
         },
+        "url": "{{localhost.url}}/team/{{team_uuid}}/delete_member",
         "description": ""
       },
       "response": []
@@ -397,62 +374,6 @@
       "_postman_id": "9d4572b2-2b5d-ae43-6475-58112f8da37f",
       "name": "·Öwiki page Dö",
       "request": {
-        "url": "{{localhost.url}}/team/{{team_uuid}}/page/12345678/attachments",
-        "method": "GET",
-        "header": [
-          {
-            "key": "Ones-User-Id",
-            "value": "{{userUUID}}",
-            "description": ""
-          },
-          {
-            "key": "Ones-Auth-Token",
-            "value": "{{token}}",
-            "description": ""
-          }
-        ],
-        "body": {},
-        "description": ""
-      },
-      "response": []
-    },
-    {
-      "_postman_id": "2db857fb-9665-8f69-1636-0a1a8845dac7",
-      "name": "
- Dö",
-      "request": {
-        "url": "{{localhost.url}}/team/{{teamUUID}}/res/attachments/upload",
-        "method": "POST",
-        "header": [
-          {
-            "key": "Ones-User-Id",
-            "value": "{{userUUID}}",
-            "description": ""
-          },
-          {
-            "key": "Ones-Auth-Token",
-            "value": "{{token}}",
-            "description": ""
-          },
-          {
-            "key": "Content-Type",
-            "value": "application/json",
-            "description": ""
-          }
-        ],
-        "body": {
-          "mode": "raw",
-          "raw": "{\n    \"type\": \"attachment\",\n    \"ref_type\": \"space\",\n    \"ref_id\": \"12345678\",\n    \"name\": \"example.ppt\",\n    \"hash\": \"FhafioiyVcbR2ORJG1lPWlTqT8Tn\"\n}"
-        },
-        "description": ""
-      },
-      "response": []
-    },
-    {
-      "_postman_id": "fe7403df-4805-825d-db5a-1c855be5d00b",
-      "name": "·Ö space Dö",
-      "request": {
-        "url": "{{localhost.url}}/team/{{teamUUID}}/space/1234567890/attachments",
         "method": "GET",
         "header": [
           {
@@ -465,6 +386,57 @@
           }
         ],
         "body": {},
+        "url": "{{localhost.url}}/team/{{team_uuid}}/page/12345678/attachments",
+        "description": ""
+      },
+      "response": []
+    },
+    {
+      "_postman_id": "2db857fb-9665-8f69-1636-0a1a8845dac7",
+      "name": "
+ Dö",
+      "request": {
+        "method": "POST",
+        "header": [
+          {
+            "key": "Ones-User-Id",
+            "value": "{{userUUID}}"
+          },
+          {
+            "key": "Ones-Auth-Token",
+            "value": "{{token}}"
+          },
+          {
+            "key": "Content-Type",
+            "value": "application/json"
+          }
+        ],
+        "body": {
+          "mode": "raw",
+          "raw": "{\n    \"type\": \"attachment\",\n    \"ref_type\": \"space\",\n    \"ref_id\": \"12345678\",\n    \"name\": \"example.ppt\",\n    \"hash\": \"FhafioiyVcbR2ORJG1lPWlTqT8Tn\"\n}"
+        },
+        "url": "{{localhost.url}}/team/{{teamUUID}}/res/attachments/upload",
+        "description": ""
+      },
+      "response": []
+    },
+    {
+      "_postman_id": "fe7403df-4805-825d-db5a-1c855be5d00b",
+      "name": "·Ö space Dö",
+      "request": {
+        "method": "GET",
+        "header": [
+          {
+            "key": "Ones-User-Id",
+            "value": "{{userUUID}}"
+          },
+          {
+            "key": "Ones-Auth-Token",
+            "value": "{{token}}"
+          }
+        ],
+        "body": {},
+        "url": "{{localhost.url}}/team/{{teamUUID}}/space/1234567890/attachments",
         "description": ""
       },
       "response": []
@@ -473,9 +445,11 @@
       "_postman_id": "6fd295d7-1bcb-75d3-7ba7-30b93bcab9f2",
       "name": "·Ö”(",
       "request": {
+        "method": "GET",
+        "header": [],
+        "body": {},
         "url": {
           "raw": "{{base_url}}/app?appId=874881574",
-          "auth": {},
           "host": [
             "{{base_url}}"
           ],
@@ -486,15 +460,10 @@
             {
               "key": "appId",
               "value": "874881574",
-              "equals": true,
-              "description": ""
+              "equals": true
             }
-          ],
-          "variable": []
+          ]
         },
-        "method": "GET",
-        "header": [],
-        "body": {},
         "description": ""
       },
       "response": []
@@ -503,9 +472,20 @@
       "_postman_id": "cafdd2e5-21dc-c495-cdb8-a41f7d7e77b9",
       "name": "·ÖyîÒöMn",
       "request": {
+        "method": "GET",
+        "header": [
+          {
+            "key": "Ones-User-Id",
+            "value": "{{user_uuid}}"
+          },
+          {
+            "key": "Ones-Auth-Token",
+            "value": "{{token}}"
+          }
+        ],
+        "body": {},
         "url": {
           "raw": "{{base_url}}/team/{{team_uuid}}/project/AVFenPAg12345675/plugin/config?plugin_uuid=QEfqHHfN",
-          "auth": {},
           "host": [
             "{{base_url}}"
           ],
@@ -521,26 +501,10 @@
             {
               "key": "plugin_uuid",
               "value": "QEfqHHfN",
-              "equals": true,
-              "description": ""
+              "equals": true
             }
-          ],
-          "variable": []
+          ]
         },
-        "method": "GET",
-        "header": [
-          {
-            "key": "Ones-User-Id",
-            "value": "{{user_uuid}}",
-            "description": ""
-          },
-          {
-            "key": "Ones-Auth-Token",
-            "value": "{{token}}",
-            "description": ""
-          }
-        ],
-        "body": {},
         "description": ""
       },
       "response": []
@@ -549,29 +513,26 @@
       "_postman_id": "e019a77d-334e-acf1-78a1-fc848b6ac9a2",
       "name": "ô°yîÒöMn",
       "request": {
-        "url": "{{base_url}}/team/{{team_uuid}}/project/DVEEWw4M12345675/plugin/config/update",
         "method": "POST",
         "header": [
           {
             "key": "Content-Type",
-            "value": "application/json",
-            "description": ""
+            "value": "application/json"
           },
           {
             "key": "Ones-User-Id",
-            "value": "{{user_uuid}}",
-            "description": ""
+            "value": "{{user_uuid}}"
           },
           {
             "key": "Ones-Auth-Token",
-            "value": "{{token}}",
-            "description": ""
+            "value": "{{token}}"
           }
         ],
         "body": {
           "mode": "raw",
-          "raw": "{\n\t\"plugin_uuid\": \"ER5ER8Ex\",\n\t\"action\": \"add\",\n\t\"config\": {\n\t\t\"app_id\": \"874881574\",\n\t\t\"app_name\": \"QQ\",\n\t\t\"assign\": \"DVEEWw4M\",\n\t\t\"is_begin_from\": true\n\t}\n}"
+          "raw": "{\n\t\"plugin_uuid\": \"QEfqHHfN\",\n\t\"action\": \"add\",\n\t\"config\": {\n\t\t\"app_id\": \"874881574\",\n\t\t\"app_name\": \"QQ\",\n\t\t\"assign\": \"AVFenPAg\",\n\t\t\"is_begin_from\": true\n\t}\n}"
         },
+        "url": "{{base_url}}/team/{{team_uuid}}/project/AVFenPAg12345675/plugin/config/update",
         "description": ""
       },
       "response": []
@@ -580,34 +541,30 @@
       "_postman_id": "821cbf06-4c25-f596-eba9-c53aeb2e3771",
       "name": "î9âÒö",
       "request": {
-        "url": "{{base_url}}/team/{{team_uuid}}/plugin/QEfqHHfN/update",
         "method": "POST",
         "header": [
           {
             "key": "Ones-User-Id",
-            "value": "{{user_uuid}}",
-            "description": ""
+            "value": "{{user_uuid}}"
           },
           {
             "key": "Ones-Auth-Token",
-            "value": "{{token}}",
-            "description": ""
+            "value": "{{token}}"
           },
           {
             "key": "Content-Type",
-            "value": "application/json",
-            "description": ""
+            "value": "application/json"
           },
           {
             "key": "Accept-Language",
-            "value": "es",
-            "description": ""
+            "value": "es"
           }
         ],
         "body": {
           "mode": "raw",
           "raw": "{\n\t\"is_open\": true\n}"
         },
+        "url": "{{base_url}}/team/{{team_uuid}}/plugin/QEfqHHfN/update",
         "description": ""
       },
       "response": []
@@ -616,29 +573,26 @@
       "_postman_id": "9973549a-643f-5f10-bbac-abca47c689d4",
       "name": "°úyî",
       "request": {
-        "url": "{{base_url}}/team/{{team_uuid}}/projects/add",
         "method": "POST",
         "header": [
           {
             "key": "Ones-User-Id",
-            "value": "{{user_uuid}}",
-            "description": ""
+            "value": "{{user_uuid}}"
           },
           {
             "key": "Ones-Auth-Token",
-            "value": "{{token}}",
-            "description": ""
+            "value": "{{token}}"
           },
           {
             "key": "Content-Type",
-            "value": "application/json",
-            "description": ""
+            "value": "application/json"
           }
         ],
         "body": {
           "mode": "raw",
           "raw": "{\n\t\"project\":\t{\n\t\t\t\t\"uuid\": \"AVFenPAg12345675\",\n\t\t\t\t\"name\":\"°úyî\" ,\n\t\t\t\t\"owner\": \"AVFenPAg\",\n\t\t\t\t\"status\": 1,\n\t\t\t\t\"members\": []\n\t\t\t},\n\t\"issue_types\": [\"YVScBgEM\"]\n}"
         },
+        "url": "{{base_url}}/team/{{team_uuid}}/projects/add",
         "description": ""
       },
       "response": []
@@ -647,29 +601,26 @@
       "_postman_id": "802d8ec1-32b7-46fe-075f-46aca8d7cad8",
       "name": "î9yîÒö",
       "request": {
-        "url": "{{base_url}}/team/{{team_uuid}}/project/AVFenPAg12345675/plugins/update",
         "method": "POST",
         "header": [
           {
             "key": "Content-Type",
-            "value": "application/json",
-            "description": ""
+            "value": "application/json"
           },
           {
             "key": "Ones-User-Id",
-            "value": "{{user_uuid}}",
-            "description": ""
+            "value": "{{user_uuid}}"
           },
           {
             "key": "Ones-Auth-Token",
-            "value": "{{token}}",
-            "description": ""
+            "value": "{{token}}"
           }
         ],
         "body": {
           "mode": "raw",
           "raw": "{\n\t\"plugins\": [\n\t\t\t{\n\t\t\t\t\"plugin_uuid\": \"ER5ER8Ex\",\n\t\t\t\t\"status\": 1\n\t\t\t}\n\t\t]\n}"
         },
+        "url": "{{base_url}}/team/{{team_uuid}}/project/AVFenPAg12345675/plugins/update",
         "description": ""
       },
       "response": []
@@ -678,21 +629,19 @@
       "_postman_id": "8a372e22-551c-e45f-d5a3-ff5c01916e2b",
       "name": "yîÒöh",
       "request": {
-        "url": "{{base_url}}/team/{{team_uuid}}/project/AVFenPAg12345675/plugins",
         "method": "GET",
         "header": [
           {
             "key": "Ones-User-Id",
-            "value": "{{user_uuid}}",
-            "description": ""
+            "value": "{{user_uuid}}"
           },
           {
             "key": "Ones-Auth-Token",
-            "value": "{{token}}",
-            "description": ""
+            "value": "{{token}}"
           }
         ],
         "body": {},
+        "url": "{{base_url}}/team/{{team_uuid}}/project/AVFenPAg12345675/plugins",
         "description": ""
       },
       "response": []
@@ -701,7 +650,6 @@
       "_postman_id": "ca9e73a4-ddad-a117-7fd4-35730fba36ed",
       "name": "yî view",
       "request": {
-        "url": "{{base_url}}/team/{{team_uuid}}/project/F7jo7W5H12345677/view",
         "method": "GET",
         "header": [
           {
@@ -714,6 +662,7 @@
           }
         ],
         "body": {},
+        "url": "{{base_url}}/team/{{team_uuid}}/project/F7jo7W5H12345677/view",
         "description": ""
       },
       "response": []
@@ -722,29 +671,26 @@
       "_postman_id": "d2154ddb-28fa-d959-bd78-de1096d1883f",
       "name": "î9s.^'",
       "request": {
-        "url": "{{base_url}}/team/{{team_uuid}}/project/QEfqHHfN12345676/issue_type/6gKGmzkt/important_fields/update",
         "method": "POST",
         "header": [
           {
             "key": "Ones-User-Id",
-            "value": "{{user_uuid}}",
-            "description": ""
+            "value": "{{user_uuid}}"
           },
           {
             "key": "Ones-Auth-Token",
-            "value": "{{token}}",
-            "description": ""
+            "value": "{{token}}"
           },
           {
             "key": "Content-Type",
-            "value": "application/json",
-            "description": ""
+            "value": "application/json"
           }
         ],
         "body": {
           "mode": "raw",
           "raw": "{\n\t\n\t\"fields\": [\"field004\", \"field007\"]\n}"
         },
+        "url": "{{base_url}}/team/{{team_uuid}}/project/QEfqHHfN12345676/issue_type/6gKGmzkt/important_fields/update",
         "description": ""
       },
       "response": []
@@ -753,7 +699,6 @@
       "_postman_id": "bc348218-e671-4eb8-3413-8ca90ef6b51a",
       "name": "·Öfield config",
       "request": {
-        "url": "{{base_url}}/team/{{team_uuid}}/field_configs",
         "method": "GET",
         "header": [
           {
@@ -766,6 +711,7 @@
           }
         ],
         "body": {},
+        "url": "{{base_url}}/team/{{team_uuid}}/field_configs",
         "description": ""
       },
       "response": []
@@ -774,138 +720,6 @@
       "_postman_id": "6596a7ac-5149-6830-1623-27ae6e919b9a",
       "name": "·Ö fields",
       "request": {
-        "url": "{{base_url}}/team/{{team_uuid}}/fields",
-        "method": "GET",
-        "header": [
-          {
-            "key": "Ones-User-Id",
-            "value": "{{user_uuid}}",
-            "description": ""
-          },
-          {
-            "key": "Ones-Auth-Token",
-            "value": "{{token}}",
-            "description": ""
-          }
-        ],
-        "body": {},
-        "description": ""
-      },
-      "response": []
-    },
-    {
-      "_postman_id": "9e6fcca2-77e0-cee7-5960-23eb6c143415",
-      "name": "î9 field",
-      "request": {
-        "url": "{{base_url}}/team/{{team_uuid}}/field/XQTduFjw/update",
-        "method": "POST",
-        "header": [
-          {
-            "key": "Ones-User-Id",
-            "value": "{{user_uuid}}",
-            "description": ""
-          },
-          {
-            "key": "Ones-Auth-Token",
-            "value": "{{token}}",
-            "description": ""
-          },
-          {
-            "key": "Content-Type",
-            "value": "application/json",
-            "description": ""
-          }
-        ],
-        "body": {
-          "mode": "raw",
-          "raw": "  { \n  \t \"field\": {\n            \"uuid\": \"XQTduFjw\",\n            \"name\": \"Äº¹\",\n            \"type\": 1,\n            \"options\": [\n                {\n                    \"uuid\": \"Lp5tcefG\",\n                    \"value\": \"11uuuul: B\",\n                    \"selected\": false,\n                    \"background_color\": \"qqqq\",\n                    \"color\": \"qqqkkkq\"\n                },\n                {\n                    \"uuid\": \"MEqCHRF7\",\n                    \"value\": \"ˆ¥×\",\n                    \"selected\": false,\n                    \"background_color\": \"\",\n                    \"color\": \"\"\n                },\n                {\n                    \"uuid\": \"PaC7nVNw\",\n                    \"value\": \"ö\",\n                    \"selected\": false,\n                    \"background_color\": \"\",\n                    \"color\": \"\"\n                }\n            ]\n        }\n  }"
-        },
-        "description": ""
-      },
-      "response": []
-    },
-    {
-      "_postman_id": "69c0a8f8-560e-f3c2-ac53-178137d39187",
-      "name": "·Öû¡æÅ",
-      "request": {
-        "url": "{{base_url}}/team/{{team_uuid}}/tasks/info",
-        "method": "GET",
-        "header": [
-          {
-            "key": "Ones-User-Id",
-            "value": "{{user_uuid}}",
-            "description": ""
-          },
-          {
-            "key": "Ones-Auth-Token",
-            "value": "{{token}}",
-            "description": ""
-          }
-        ],
-        "body": {},
-        "description": ""
-      },
-      "response": []
-    },
-    {
-      "_postman_id": "72dcfb15-4902-1080-9e84-1b7d08a4ae48",
-      "name": "\b·Ös.^'",
-      "request": {
-        "url": "{{base_url}}/team/{{team_uuid}}/project/QEfqHHfN12345676/issue_type/yy/important_fields",
-        "method": "GET",
-        "header": [
-          {
-            "key": "Ones-User-Id",
-            "value": "{{user_uuid}}",
-            "description": ""
-          },
-          {
-            "key": "Ones-Auth-Token",
-            "value": "{{token}}",
-            "description": ""
-          }
-        ],
-        "body": {},
-        "description": ""
-      },
-      "response": []
-    },
-    {
-      "_postman_id": "f9711f2d-038a-fce7-a326-d51e65aa16ff",
-      "name": "û¡üú",
-      "request": {
-        "url": "{{base_url}}/team/{{team_uuid}}/filters/export",
-        "method": "POST",
-        "header": [
-          {
-            "key": "Ones-User-Id",
-            "value": "{{user_uuid}}",
-            "description": ""
-          },
-          {
-            "key": "Ones-Auth-Token",
-            "value": "{{token}}",
-            "description": ""
-          },
-          {
-            "key": "Content-Type",
-            "value": "application/json",
-            "description": ""
-          }
-        ],
-        "body": {
-          "mode": "raw",
-          "raw": "{\n\t\"name\":\"xx\",\n\t\"query\":{\"must\":[{\"equal\":{\"field_values.field007\":\"KgDzH3oE\"}}]},\n\t\"group_by\":\"\",\n\t\"sort\":[{\"create_time\":{\"order\":\"desc\"}}]\n\t}\n\t"
-        },
-        "description": ""
-      },
-      "response": []
-    },
-    {
-      "_postman_id": "94cd633b-397d-46fe-fb33-cd659700dc34",
-      "name": "âÒöh",
-      "request": {
-        "url": "{{base_url}}/team/{{team_uuid}}/plugins",
         "method": "GET",
         "header": [
           {
@@ -918,6 +732,126 @@
           }
         ],
         "body": {},
+        "url": "{{base_url}}/team/{{team_uuid}}/fields",
+        "description": ""
+      },
+      "response": []
+    },
+    {
+      "_postman_id": "9e6fcca2-77e0-cee7-5960-23eb6c143415",
+      "name": "î9 field",
+      "request": {
+        "method": "POST",
+        "header": [
+          {
+            "key": "Ones-User-Id",
+            "value": "{{user_uuid}}"
+          },
+          {
+            "key": "Ones-Auth-Token",
+            "value": "{{token}}"
+          },
+          {
+            "key": "Content-Type",
+            "value": "application/json"
+          }
+        ],
+        "body": {
+          "mode": "raw",
+          "raw": "  { \n  \t \"field\": {\n            \"uuid\": \"XQTduFjw\",\n            \"name\": \"Äº¹\",\n            \"type\": 1,\n            \"options\": [\n                {\n                    \"uuid\": \"Lp5tcefG\",\n                    \"value\": \"11uuuul: B\",\n                    \"selected\": false,\n                    \"background_color\": \"qqqq\",\n                    \"color\": \"qqqkkkq\"\n                },\n                {\n                    \"uuid\": \"MEqCHRF7\",\n                    \"value\": \"ˆ¥×\",\n                    \"selected\": false,\n                    \"background_color\": \"\",\n                    \"color\": \"\"\n                },\n                {\n                    \"uuid\": \"PaC7nVNw\",\n                    \"value\": \"ö\",\n                    \"selected\": false,\n                    \"background_color\": \"\",\n                    \"color\": \"\"\n                }\n            ]\n        }\n  }"
+        },
+        "url": "{{base_url}}/team/{{team_uuid}}/field/XQTduFjw/update",
+        "description": ""
+      },
+      "response": []
+    },
+    {
+      "_postman_id": "69c0a8f8-560e-f3c2-ac53-178137d39187",
+      "name": "·Öû¡æÅ",
+      "request": {
+        "method": "GET",
+        "header": [
+          {
+            "key": "Ones-User-Id",
+            "value": "{{user_uuid}}"
+          },
+          {
+            "key": "Ones-Auth-Token",
+            "value": "{{token}}"
+          }
+        ],
+        "body": {},
+        "url": "{{base_url}}/team/{{team_uuid}}/tasks/info",
+        "description": ""
+      },
+      "response": []
+    },
+    {
+      "_postman_id": "72dcfb15-4902-1080-9e84-1b7d08a4ae48",
+      "name": "\b·Ös.^'",
+      "request": {
+        "method": "GET",
+        "header": [
+          {
+            "key": "Ones-User-Id",
+            "value": "{{user_uuid}}"
+          },
+          {
+            "key": "Ones-Auth-Token",
+            "value": "{{token}}"
+          }
+        ],
+        "body": {},
+        "url": "{{base_url}}/team/{{team_uuid}}/project/QEfqHHfN12345676/issue_type/yy/important_fields",
+        "description": ""
+      },
+      "response": []
+    },
+    {
+      "_postman_id": "f9711f2d-038a-fce7-a326-d51e65aa16ff",
+      "name": "û¡üú",
+      "request": {
+        "method": "POST",
+        "header": [
+          {
+            "key": "Ones-User-Id",
+            "value": "{{user_uuid}}"
+          },
+          {
+            "key": "Ones-Auth-Token",
+            "value": "{{token}}"
+          },
+          {
+            "key": "Content-Type",
+            "value": "application/json"
+          }
+        ],
+        "body": {
+          "mode": "raw",
+          "raw": "{\n\t\"name\":\"xx\",\n\t\"query\":{\"must\":[{\"equal\":{\"field_values.field007\":\"KgDzH3oE\"}}]},\n\t\"group_by\":\"\",\n\t\"sort\":[{\"create_time\":{\"order\":\"desc\"}}]\n\t}\n\t"
+        },
+        "url": "{{base_url}}/team/{{team_uuid}}/filters/export",
+        "description": ""
+      },
+      "response": []
+    },
+    {
+      "_postman_id": "94cd633b-397d-46fe-fb33-cd659700dc34",
+      "name": "âÒöh",
+      "request": {
+        "method": "GET",
+        "header": [
+          {
+            "key": "Ones-User-Id",
+            "value": "{{user_uuid}}"
+          },
+          {
+            "key": "Ones-Auth-Token",
+            "value": "{{token}}"
+          }
+        ],
+        "body": {},
+        "url": "{{base_url}}/team/{{team_uuid}}/plugins",
         "description": ""
       },
       "response": []
@@ -926,24 +860,22 @@
       "_postman_id": "1c998eda-230d-167e-2f7a-9052b0d4359b",
       "name": "KÕ github",
       "request": {
-        "url": "http://localhost:9001/team/12345678/project/8765432112345678/webhook/install",
         "method": "POST",
         "header": [
           {
             "key": "Content-Type",
-            "value": "application/json",
-            "description": ""
+            "value": "application/json"
           },
           {
             "key": "X-Hub-Signature",
-            "value": "sha1=6d49a53d1f409ad30b327e648852dc3363af95de",
-            "description": ""
+            "value": "sha1=6d49a53d1f409ad30b327e648852dc3363af95de"
           }
         ],
         "body": {
           "mode": "raw",
           "raw": "{\n  \"ref\": \"refs/heads/master\",\n  \"before\": \"d9ce8b60729cfdb97bc312f1e78c2e4f4d939271\",\n  \"after\": \"aa728917c94d370f389c662a91b645ca1e55d497\",\n  \"created\": false,\n  \"deleted\": false,\n  \"forced\": false,\n  \"base_ref\": null,\n  \"compare\": \"https://github.com/879229629/lintcode/compare/d9ce8b60729c...aa728917c94d\",\n  \"commits\": [\n    {\n      \"id\": \"aa728917c94d370f389c662a91b645ca1e55d497\",\n      \"tree_id\": \"1302e0ba794aec6144ef2041f30fc46dc51b8ef1\",\n      \"distinct\": true,\n      \"message\": \"test onesi #7849  pppp #7852  #git@github.com:879229629/lintcode.git\",\n      \"timestamp\": \"2017-10-27T17:05:20+08:00\",\n      \"url\": \"https://github.com/879229629/lintcode/commit/aa728917c94d370f389c662a91b645ca1e55d497\",\n      \"author\": {\n        \"name\": \"879229629\",\n        \"email\": \"zg879229629@gmail.com\",\n        \"username\": \"879229629\"\n      },\n      \"committer\": {\n        \"name\": \"879229629\",\n        \"email\": \"zg879229629@gmail.com\",\n        \"username\": \"879229629\"\n      },\n      \"added\": [\n\n      ],\n      \"removed\": [\n\n      ],\n      \"modified\": [\n        \"11.txt\"\n      ]\n    }\n  ],\n  \"head_commit\": {\n    \"id\": \"aa728917c94d370f389c662a91b645ca1e55d497\",\n    \"tree_id\": \"1302e0ba794aec6144ef2041f30fc46dc51b8ef1\",\n    \"distinct\": true,\n    \"message\": \"test onesi #7849  pppp #7852  #git@github.com:879229629/lintcode.git\",\n    \"timestamp\": \"2017-10-27T17:05:20+08:00\",\n    \"url\": \"https://github.com/879229629/lintcode/commit/aa728917c94d370f389c662a91b645ca1e55d497\",\n    \"author\": {\n      \"name\": \"879229629\",\n      \"email\": \"zg879229629@gmail.com\",\n      \"username\": \"879229629\"\n    },\n    \"committer\": {\n      \"name\": \"879229629\",\n      \"email\": \"zg879229629@gmail.com\",\n      \"username\": \"879229629\"\n    },\n    \"added\": [\n\n    ],\n    \"removed\": [\n\n    ],\n    \"modified\": [\n      \"11.txt\"\n    ]\n  },\n  \"repository\": {\n    \"id\": 75178850,\n    \"name\": \"lintcode\",\n    \"full_name\": \"879229629/lintcode\",\n    \"owner\": {\n      \"name\": \"879229629\",\n      \"email\": \"zg879229629@gmail.com\",\n      \"login\": \"879229629\",\n      \"id\": 7445768,\n      \"avatar_url\": \"https://avatars0.githubusercontent.com/u/7445768?v=4\",\n      \"gravatar_id\": \"\",\n      \"url\": \"https://api.github.com/users/879229629\",\n      \"html_url\": \"https://github.com/879229629\",\n      \"followers_url\": \"https://api.github.com/users/879229629/followers\",\n      \"following_url\": \"https://api.github.com/users/879229629/following{/other_user}\",\n      \"gists_url\": \"https://api.github.com/users/879229629/gists{/gist_id}\",\n      \"starred_url\": \"https://api.github.com/users/879229629/starred{/owner}{/repo}\",\n      \"subscriptions_url\": \"https://api.github.com/users/879229629/subscriptions\",\n      \"organizations_url\": \"https://api.github.com/users/879229629/orgs\",\n      \"repos_url\": \"https://api.github.com/users/879229629/repos\",\n      \"events_url\": \"https://api.github.com/users/879229629/events{/privacy}\",\n      \"received_events_url\": \"https://api.github.com/users/879229629/received_events\",\n      \"type\": \"User\",\n      \"site_admin\": false\n    },\n    \"private\": false,\n    \"html_url\": \"https://github.com/879229629/lintcode\",\n    \"description\": null,\n    \"fork\": false,\n    \"url\": \"https://github.com/879229629/lintcode\",\n    \"forks_url\": \"https://api.github.com/repos/879229629/lintcode/forks\",\n    \"keys_url\": \"https://api.github.com/repos/879229629/lintcode/keys{/key_id}\",\n    \"collaborators_url\": \"https://api.github.com/repos/879229629/lintcode/collaborators{/collaborator}\",\n    \"teams_url\": \"https://api.github.com/repos/879229629/lintcode/teams\",\n    \"hooks_url\": \"https://api.github.com/repos/879229629/lintcode/hooks\",\n    \"issue_events_url\": \"https://api.github.com/repos/879229629/lintcode/issues/events{/number}\",\n    \"events_url\": \"https://api.github.com/repos/879229629/lintcode/events\",\n    \"assignees_url\": \"https://api.github.com/repos/879229629/lintcode/assignees{/user}\",\n    \"branches_url\": \"https://api.github.com/repos/879229629/lintcode/branches{/branch}\",\n    \"tags_url\": \"https://api.github.com/repos/879229629/lintcode/tags\",\n    \"blobs_url\": \"https://api.github.com/repos/879229629/lintcode/git/blobs{/sha}\",\n    \"git_tags_url\": \"https://api.github.com/repos/879229629/lintcode/git/tags{/sha}\",\n    \"git_refs_url\": \"https://api.github.com/repos/879229629/lintcode/git/refs{/sha}\",\n    \"trees_url\": \"https://api.github.com/repos/879229629/lintcode/git/trees{/sha}\",\n    \"statuses_url\": \"https://api.github.com/repos/879229629/lintcode/statuses/{sha}\",\n    \"languages_url\": \"https://api.github.com/repos/879229629/lintcode/languages\",\n    \"stargazers_url\": \"https://api.github.com/repos/879229629/lintcode/stargazers\",\n    \"contributors_url\": \"https://api.github.com/repos/879229629/lintcode/contributors\",\n    \"subscribers_url\": \"https://api.github.com/repos/879229629/lintcode/subscribers\",\n    \"subscription_url\": \"https://api.github.com/repos/879229629/lintcode/subscription\",\n    \"commits_url\": \"https://api.github.com/repos/879229629/lintcode/commits{/sha}\",\n    \"git_commits_url\": \"https://api.github.com/repos/879229629/lintcode/git/commits{/sha}\",\n    \"comments_url\": \"https://api.github.com/repos/879229629/lintcode/comments{/number}\",\n    \"issue_comment_url\": \"https://api.github.com/repos/879229629/lintcode/issues/comments{/number}\",\n    \"contents_url\": \"https://api.github.com/repos/879229629/lintcode/contents/{+path}\",\n    \"compare_url\": \"https://api.github.com/repos/879229629/lintcode/compare/{base}...{head}\",\n    \"merges_url\": \"https://api.github.com/repos/879229629/lintcode/merges\",\n    \"archive_url\": \"https://api.github.com/repos/879229629/lintcode/{archive_format}{/ref}\",\n    \"downloads_url\": \"https://api.github.com/repos/879229629/lintcode/downloads\",\n    \"issues_url\": \"https://api.github.com/repos/879229629/lintcode/issues{/number}\",\n    \"pulls_url\": \"https://api.github.com/repos/879229629/lintcode/pulls{/number}\",\n    \"milestones_url\": \"https://api.github.com/repos/879229629/lintcode/milestones{/number}\",\n    \"notifications_url\": \"https://api.github.com/repos/879229629/lintcode/notifications{?since,all,participating}\",\n    \"labels_url\": \"https://api.github.com/repos/879229629/lintcode/labels{/name}\",\n    \"releases_url\": \"https://api.github.com/repos/879229629/lintcode/releases{/id}\",\n    \"deployments_url\": \"https://api.github.com/repos/879229629/lintcode/deployments\",\n    \"created_at\": 1480503670,\n    \"updated_at\": \"2016-11-30T11:01:10Z\",\n    \"pushed_at\": 1509095158,\n    \"git_url\": \"git://github.com/879229629/lintcode.git\",\n    \"ssh_url\": \"git@github.com:879229629/lintcode.git\",\n    \"clone_url\": \"https://github.com/879229629/lintcode.git\",\n    \"svn_url\": \"https://github.com/879229629/lintcode\",\n    \"homepage\": null,\n    \"size\": 153,\n    \"stargazers_count\": 0,\n    \"watchers_count\": 0,\n    \"language\": null,\n    \"has_issues\": true,\n    \"has_projects\": true,\n    \"has_downloads\": true,\n    \"has_wiki\": true,\n    \"has_pages\": false,\n    \"forks_count\": 0,\n    \"mirror_url\": null,\n    \"archived\": false,\n    \"open_issues_count\": 3,\n    \"forks\": 0,\n    \"open_issues\": 3,\n    \"watchers\": 0,\n    \"default_branch\": \"master\",\n    \"stargazers\": 0,\n    \"master_branch\": \"master\"\n  },\n  \"pusher\": {\n    \"name\": \"879229629\",\n    \"email\": \"zg879229629@gmail.com\"\n  },\n  \"sender\": {\n    \"login\": \"879229629\",\n    \"id\": 7445768,\n    \"avatar_url\": \"https://avatars0.githubusercontent.com/u/7445768?v=4\",\n    \"gravatar_id\": \"\",\n    \"url\": \"https://api.github.com/users/879229629\",\n    \"html_url\": \"https://github.com/879229629\",\n    \"followers_url\": \"https://api.github.com/users/879229629/followers\",\n    \"following_url\": \"https://api.github.com/users/879229629/following{/other_user}\",\n    \"gists_url\": \"https://api.github.com/users/879229629/gists{/gist_id}\",\n    \"starred_url\": \"https://api.github.com/users/879229629/starred{/owner}{/repo}\",\n    \"subscriptions_url\": \"https://api.github.com/users/879229629/subscriptions\",\n    \"organizations_url\": \"https://api.github.com/users/879229629/orgs\",\n    \"repos_url\": \"https://api.github.com/users/879229629/repos\",\n    \"events_url\": \"https://api.github.com/users/879229629/events{/privacy}\",\n    \"received_events_url\": \"https://api.github.com/users/879229629/received_events\",\n    \"type\": \"User\",\n    \"site_admin\": false\n  }\n}"
         },
+        "url": "http://localhost:9001/team/12345678/project/8765432112345678/webhook/install",
         "description": ""
       },
       "response": []
