@@ -2,7 +2,9 @@
 #
 # MySQL backup script
 # GRANT SELECT, SHOW VIEW, RELOAD, REPLICATION CLIENT, EVENT, TRIGGER ON *.* TO 'backup'@'localhost' IDENTIFIED BY 'password';
-# find "$backupfolder" -name db_backup_* -mtime +365 -exec rm {} \;
+# export example: gunzip < back_wiki_f2008_20171123113657.sql.gz | mysql -hlocalhost -ubang -p -D wiki_2008
+# delete file example: find "$backupdir" -name backup_* -mtime +365 -exec rm {} \;
+#
 
 set -e
 
@@ -36,10 +38,10 @@ mysql_host="localhost"
 mysql_port=3306
 mysql_db_name=$DB_NAME
 
-backupdir="/Users/steven/tmp/backup/data/"
-backupfolder="${backupdir}/${YMD}"
-fullpathbackupfile_schema="$backupfolder/back_${mysql_db_name}_${NOW}.schema.sql"
-fullpathbackupfile="$backupfolder/back_${mysql_db_name}_${NOW}.sql"
+backupdir="/Users/steven/tmp/backup/data"
+backupfolder="${backupdir}/${mysql_db_name}/${YMD}"
+fullpathbackupfile_schema="$backupfolder/backup_${mysql_db_name}_${NOW}.schema.sql"
+fullpathbackupfile="$backupfolder/backup_${mysql_db_name}_${NOW}.sql"
 
 
 echo "*** backup mysql db <${mysql_db_name}> at ${backupfolder}"
