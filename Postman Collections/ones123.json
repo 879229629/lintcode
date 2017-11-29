@@ -484,7 +484,7 @@
         ],
         "body": {},
         "url": {
-          "raw": "{{base_url}}/team/{{team_uuid}}/project/AVFenPAg12345675/plugin/config?plugin_uuid=QEfqHHfa",
+          "raw": "{{base_url}}/team/{{team_uuid}}/project/AVFenPAg12345675/plugin/config?plugin_uuid=G4vsJrXz",
           "host": [
             "{{base_url}}"
           ],
@@ -499,7 +499,7 @@
           "query": [
             {
               "key": "plugin_uuid",
-              "value": "QEfqHHfa",
+              "value": "G4vsJrXz",
               "equals": true
             }
           ]
