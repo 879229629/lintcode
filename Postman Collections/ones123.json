@@ -1,5 +1,4 @@
 {
-  "variables": [],
   "info": {
     "name": "ones/do KÕ",
     "_postman_id": "86b0becf-4e19-e09f-6d33-97237756bd35",
@@ -564,7 +563,7 @@
           "mode": "raw",
           "raw": "{\n\t\"is_open\": true\n}"
         },
-        "url": "{{base_url}}/team/{{team_uuid}}/plugin/QEfqHHfN/update",
+        "url": "{{base_url}}/team/{{team_uuid}}/plugin/G4vsJrXz/update",
         "description": ""
       },
       "response": []
