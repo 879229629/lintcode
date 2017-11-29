@@ -617,7 +617,7 @@
         ],
         "body": {
           "mode": "raw",
-          "raw": "{\n\t\"plugins\": [\n\t\t\t{\n\t\t\t\t\"plugin_uuid\": \"QEfqHHfN\",\n\t\t\t\t\"status\": 1\n\t\t\t}\n\t\t]\n}"
+          "raw": "{\n\t\"plugins\": [\n\t\t\t{\n\t\t\t\t\"plugin_uuid\": \"G4vsJrXz\",\n\t\t\t\t\"status\": 1\n\t\t\t}\n\t\t]\n}"
         },
         "url": "{{base_url}}/team/{{team_uuid}}/project/AVFenPAg12345675/plugins/update",
         "description": ""
