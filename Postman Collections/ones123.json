@@ -1096,7 +1096,7 @@
         ],
         "body": {
           "mode": "raw",
-          "raw": "{\n\t\"project\": {\n\t\t\"uuid\": \"HhBuvoDJ12345678\",\n\t\t\"name\": \"*ºyîAA\"\n\t}\n\t\"issue_types\": [\"\"]\n}"
+          "raw": "{\n\t\"project\": {\n\t\t\"uuid\": \"HhBuvoDJ12345678\",\n\t\t\"name\": \"*ºyîAA\"\n\t},\n\t\"issue_types\": [\"\"]\n}"
         },
         "url": "{{base_url}}/team/{{team_uuid}}/projects/add",
         "description": null
