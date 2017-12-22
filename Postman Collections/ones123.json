@@ -1010,7 +1010,16 @@
       "name": "issue type field  d",
       "request": {
         "method": "POST",
-        "header": [],
+        "header": [
+          {
+            "key": "Ones-User-Id",
+            "value": "{{user_uuid}}"
+          },
+          {
+            "key": "Ones-Auth-Token",
+            "value": "{{token}}"
+          }
+        ],
         "body": {},
         "url": "{{base_url}}/team/{{team_uuid}}/issue_type/65aosrV7/field/field001/delete",
         "description": null
