@@ -1004,6 +1004,18 @@
         "description": null
       },
       "response": []
+    },
+    {
+      "_postman_id": "c3b7cd98-2f7e-71d2-82e5-cba40198aae6",
+      "name": "issue type field  d",
+      "request": {
+        "method": "POST",
+        "header": [],
+        "body": {},
+        "url": "{{base_url}}/team/{{team_uuid}}/issue_type/65aosrV7/field/field001/delete",
+        "description": null
+      },
+      "response": []
     }
   ]
 }
