@@ -927,6 +927,27 @@
         "description": null
       },
       "response": []
+    },
+    {
+      "_postman_id": "7a8f84af-891a-b9c2-95d4-4cefc36d7cc1",
+      "name": "issuetypes h@h",
+      "request": {
+        "method": "GET",
+        "header": [
+          {
+            "key": "Ones-User-Id",
+            "value": "{{user_uuid}}"
+          },
+          {
+            "key": "Ones-Auth-Token",
+            "value": "{{token}}"
+          }
+        ],
+        "body": {},
+        "url": "{{base_url}}/team/{{team_uuid}}/issue_types",
+        "description": null
+      },
+      "response": []
     }
   ]
 }
