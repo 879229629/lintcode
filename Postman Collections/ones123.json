@@ -1054,7 +1054,7 @@
         ],
         "body": {
           "mode": "raw",
-          "raw": "{\n\"field_config\": {\n\t\"can_delete\":true\n}\t\n\t\n}"
+          "raw": "{\n\t\"field_config\": {\n\t\"field_uuid\": \"field_001\",\n\t\"required\": true\n\t}\n}"
         },
         "url": "{{base_url}}/team/{{team_uuid}}/issue_type/65aosrV7/fields/add",
         "description": null
