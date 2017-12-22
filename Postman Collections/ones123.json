@@ -1102,6 +1102,34 @@
         "description": null
       },
       "response": []
+    },
+    {
+      "_postman_id": "0d6aadfc-fea8-41b1-e084-5ecb26233ab3",
+      "name": "úyî",
+      "request": {
+        "method": "POST",
+        "header": [
+          {
+            "key": "Ones-User-Id",
+            "value": "{{user_uuid}}"
+          },
+          {
+            "key": "Ones-Auth-Token",
+            "value": "{{token}}"
+          },
+          {
+            "key": "Content-Type",
+            "value": "application/json"
+          }
+        ],
+        "body": {
+          "mode": "raw",
+          "raw": "{\n\t\"project\": {\n\t\t\"uuid\": \"HhBuvoDJ12345678\",\n\t\t\"name\": \"*ºyîAA\"\n\t\t\n\t}\n\t\n}"
+        },
+        "url": "{{base_url}}/team/{{team_uuid}}/projects/add",
+        "description": null
+      },
+      "response": []
     }
   ]
 }
