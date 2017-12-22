@@ -1147,7 +1147,7 @@
           }
         ],
         "body": {},
-        "url": "{{base_url}}/team/{{team_uuid}}/project/HhBuvoDJ12345670/issue_type/xx/delete",
+        "url": "{{base_url}}/team/{{team_uuid}}/project/HhBuvoDJ12345670/issue_type/Ax5SHvRu/delete",
         "description": null
       },
       "response": []
