@@ -1060,6 +1060,27 @@
         "description": null
       },
       "response": []
+    },
+    {
+      "_postman_id": "93941bc2-1dca-e47e-2ef6-9a963f647914",
+      "name": "·Ö*ºyî",
+      "request": {
+        "method": "GET",
+        "header": [
+          {
+            "key": "Ones-User-Id",
+            "value": "{{user_uuid}}"
+          },
+          {
+            "key": "Ones-Auth-Token",
+            "value": "{{token}}"
+          }
+        ],
+        "body": {},
+        "url": "{{base_url}}/team/{{team_uuid}}/projects/my_project",
+        "description": null
+      },
+      "response": []
     }
   ]
 }
