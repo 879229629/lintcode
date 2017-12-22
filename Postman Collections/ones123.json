@@ -1028,7 +1028,7 @@
           "mode": "raw",
           "raw": "{\n\t\n}"
         },
-        "url": "{{base_url}}/team/{{team_uuid}}/issue_type/65aosrV7/field/field001/delete",
+        "url": "{{base_url}}/team/{{team_uuid}}/issue_type/65aosrV7/field/field013/delete",
         "description": null
       },
       "response": []
