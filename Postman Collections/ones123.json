@@ -1000,7 +1000,7 @@
           "mode": "raw",
           "raw": "{\n\"field_config\": {\n\t\n}\t\n\t\n}"
         },
-        "url": "{{base_url}}/team/{{team_uuid}}/issue_type/NuanSUXN/field/field001/update",
+        "url": "{{base_url}}/team/{{team_uuid}}/issue_type/65aosrV7/field/field001/update",
         "description": null
       },
       "response": []
