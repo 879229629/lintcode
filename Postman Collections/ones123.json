@@ -1102,6 +1102,34 @@
         "description": null
       },
       "response": []
+    },
+    {
+      "_postman_id": "bce8aa09-180c-2a5b-ee1e-fe522b6eaef7",
+      "name": "°úyî",
+      "request": {
+        "method": "POST",
+        "header": [
+          {
+            "key": "Ones-User-Id",
+            "value": "{{user_uuid}}"
+          },
+          {
+            "key": "Ones-Auth-Token",
+            "value": "{{token}}"
+          },
+          {
+            "key": "Content-Type",
+            "value": "application/json"
+          }
+        ],
+        "body": {
+          "mode": "raw",
+          "raw": "{\n\t\"project\":\t{\n\t\t\t\t\"uuid\": \"AVFenPAg12345675\",\n\t\t\t\t\"name\":\"°úyî\" ,\n\t\t\t\t\"owner\": \"AVFenPAg\",\n\t\t\t\t\"status\": 1,\n\t\t\t\t\"members\": []\n\t\t\t},\n\t\"issue_types\": [\"Ax5SHvRu\", \"65aosrV7\"]\n}"
+        },
+        "url": "{{base_url}}/team/{{team_uuid}}/projects/add",
+        "description": null
+      },
+      "response": []
     }
   ]
 }
