@@ -998,9 +998,9 @@
         ],
         "body": {
           "mode": "raw",
-          "raw": "{\n\"field_config\": {\n\t\n}\t\n\t\n}"
+          "raw": "{\n\"field_config\": {\n\t\"can_delete\":true\n}\t\n\t\n}"
         },
-        "url": "{{base_url}}/team/{{team_uuid}}/issue_type/65aosrV7/field/field001/update",
+        "url": "{{base_url}}/team/{{team_uuid}}/issue_type/65aosrV7/field/field016/update",
         "description": null
       },
       "response": []
