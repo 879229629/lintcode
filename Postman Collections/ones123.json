@@ -900,7 +900,7 @@
         ],
         "body": {
           "mode": "raw",
-          "raw": "{\"field_config\":{\"required\":false}}\n"
+          "raw": "{\"field_config\":{\"required\":true}}\n"
         },
         "url": "{{base_url}}/team/BjebjqK6/project/X6swogWYySvEwqNK/issue_type/KgDzH3oE/field/field011/update",
         "description": null
