@@ -1102,6 +1102,34 @@
         "description": null
       },
       "response": []
+    },
+    {
+      "_postman_id": "bbd62a11-e920-6434-e454-cec5cdba16f6",
+      "name": "{{base_url}}/team/{{team_uuid}}/project/xx/issue_types/add",
+      "request": {
+        "method": "POST",
+        "header": [
+          {
+            "key": "Ones-User-Id",
+            "value": "{{user_uuid}}"
+          },
+          {
+            "key": "Ones-Auth-Token",
+            "value": "{{token}}"
+          },
+          {
+            "key": "Content-Type",
+            "value": "application/json"
+          }
+        ],
+        "body": {
+          "mode": "raw",
+          "raw": "{\n\t\n\t\n}"
+        },
+        "url": "{{base_url}}/team/{{team_uuid}}/project/xx/issue_types/add",
+        "description": null
+      },
+      "response": []
     }
   ]
 }
