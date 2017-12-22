@@ -990,10 +990,17 @@
           {
             "key": "Ones-Auth-Token",
             "value": "{{token}}"
+          },
+          {
+            "key": "Content-Type",
+            "value": "application/json"
           }
         ],
-        "body": {},
-        "url": "{{base_url}}/team/{{team_uuid}}/issue_type/xxx/field/xxx/update",
+        "body": {
+          "mode": "raw",
+          "raw": "{\n\t\n\t\n}"
+        },
+        "url": "{{base_url}}/team/{{team_uuid}}/issue_type/NuanSUXN/field/field001/update",
         "description": null
       },
       "response": []
