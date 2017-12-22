@@ -1046,9 +1046,16 @@
           {
             "key": "Ones-Auth-Token",
             "value": "{{token}}"
+          },
+          {
+            "key": "Content-Type",
+            "value": "application/json"
           }
         ],
-        "body": {},
+        "body": {
+          "mode": "raw",
+          "raw": "{\n\t\n}"
+        },
         "url": "{{base_url}}/team/{{team_uuid}}/issue_type/65aosrV7/fields/add",
         "description": null
       },
