@@ -972,7 +972,7 @@
           "mode": "raw",
           "raw": "{\n\t\n}"
         },
-        "url": "{{base_url}}/team/{{team_uuid}}/issue_type/add",
+        "url": "{{base_url}}/team/{{team_uuid}}/issue_types/add",
         "description": null
       },
       "response": []
