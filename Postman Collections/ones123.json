@@ -1126,7 +1126,7 @@
           "mode": "raw",
           "raw": "{\n\t\n\t\n}"
         },
-        "url": "{{base_url}}/team/{{team_uuid}}/project/xx/issue_types/add",
+        "url": "{{base_url}}/team/{{team_uuid}}/project/HhBuvoDJ12345670/issue_types/add",
         "description": null
       },
       "response": []
