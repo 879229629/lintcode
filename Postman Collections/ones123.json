@@ -1130,6 +1130,27 @@
         "description": null
       },
       "response": []
+    },
+    {
+      "_postman_id": "8eb51072-ad14-9964-43c8-69bb61f9136b",
+      "name": "yî¾n issuetype",
+      "request": {
+        "method": "POST",
+        "header": [
+          {
+            "key": "Ones-User-Id",
+            "value": "{{user_uuid}}"
+          },
+          {
+            "key": "Ones-Auth-Token",
+            "value": "{{token}}"
+          }
+        ],
+        "body": {},
+        "url": "{{base_url}}/team/{{team_uuid}}/project/HhBuvoDJ12345670/issue_type/xx/delete",
+        "description": null
+      },
+      "response": []
     }
   ]
 }
