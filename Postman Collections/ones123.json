@@ -1032,6 +1032,27 @@
         "description": null
       },
       "response": []
+    },
+    {
+      "_postman_id": "5bf49e1d-9ecd-cc05-898e-9daf8103bfb5",
+      "name": "issue type field ž ",
+      "request": {
+        "method": "POST",
+        "header": [
+          {
+            "key": "Ones-User-Id",
+            "value": "{{user_uuid}}"
+          },
+          {
+            "key": "Ones-Auth-Token",
+            "value": "{{token}}"
+          }
+        ],
+        "body": {},
+        "url": "{{base_url}}/team/{{team_uuid}}/issue_type/65aosrV7/fields/add",
+        "description": null
+      },
+      "response": []
     }
   ]
 }
