@@ -233,7 +233,7 @@
         ],
         "body": {
           "mode": "raw",
-          "raw": "{\n\t\"name\": \"þ\",\n\t\"team_name\": \"personal team\",\n\t\"email\": \"zenggang+test@ones.ai\",\n\t\"phone\": \"+8618575531661\",\n\t\"password\": \"zenggang\",\n\t\"email_code\": \"wiyd0008\",\n    \"phone_code\": \"wiyd0008\"\n}"
+          "raw": "{\n\t\"name\": \"þ\",\n\t\"team_name\": \"personal team\",\n\t\"email\": \"zenggang+test@ones.ai\",\n\t\"phone\": \"+8618575531661\",\n\t\"password\": \"zenggang\",\n\t\"email_code\": \"04wYet2Je7eJ7WBfEhuS1ddOz4SzSv4R\",\n    \"phone_code\": \"123456\"\n}"
         },
         "url": "{{base_url}}/auth/create_team",
         "description": ""
