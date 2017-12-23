@@ -1158,9 +1158,16 @@
           {
             "key": "Ones-Auth-Token",
             "value": "{{token}}"
+          },
+          {
+            "key": "Content-Type",
+            "value": "application/json"
           }
         ],
-        "body": {},
+        "body": {
+          "mode": "raw",
+          "raw": "{\n\t\n\t\n}"
+        },
         "url": "{{base_url}}/team/{{team_uuid}}/tasks/add",
         "description": null
       },
