@@ -1112,7 +1112,7 @@
           }
         ],
         "body": {},
-        "url": "{{base_url}}/team/{{team_uuid}}/project/HhBuvoDJ12345670/issue_type/Ax5SHvRu/field/field011/delete",
+        "url": "{{base_url}}/team/{{team_uuid}}/project/HhBuvoDJ12345670/issue_type/Ax5SHvRu/field/field013/delete",
         "description": null
       },
       "response": []
