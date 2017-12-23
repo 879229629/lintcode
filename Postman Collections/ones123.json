@@ -1165,9 +1165,16 @@
           {
             "key": "Ones-Auth-Token",
             "value": "{{token}}"
+          },
+          {
+            "key": "Content-Type",
+            "value": "application/json"
           }
         ],
-        "body": {},
+        "body": {
+          "mode": "raw",
+          "raw": "{\n\t\n\t\n}"
+        },
         "url": "{{base_url}}/team/{{team_uuid}}/project/HhBuvoDJ12345670/issue_type/Ax5SHvRu/field/field001/update",
         "description": null
       },
