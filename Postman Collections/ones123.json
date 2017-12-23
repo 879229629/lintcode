@@ -922,34 +922,6 @@
       "response": []
     },
     {
-      "_postman_id": "4249540d-6b32-e270-8471-4e28547473e2",
-      "name": "issue type field î9",
-      "request": {
-        "method": "POST",
-        "header": [
-          {
-            "key": "Ones-User-Id",
-            "value": "{{user_uuid}}"
-          },
-          {
-            "key": "Ones-Auth-Token",
-            "value": "{{token}}"
-          },
-          {
-            "key": "Content-Type",
-            "value": "application/json"
-          }
-        ],
-        "body": {
-          "mode": "raw",
-          "raw": "{\n\"field_config\": {\n\t\"can_delete\":true\n}\t\n\t\n}"
-        },
-        "url": "{{base_url}}/team/{{team_uuid}}/issue_type/65aosrV7/field/field016/update",
-        "description": null
-      },
-      "response": []
-    },
-    {
       "_postman_id": "c3b7cd98-2f7e-71d2-82e5-cba40198aae6",
       "name": "issue type field  d",
       "request": {
