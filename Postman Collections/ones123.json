@@ -1172,6 +1172,34 @@
         "description": null
       },
       "response": []
+    },
+    {
+      "_postman_id": "f5baa573-c658-2de3-0f52-4ec21e1d600d",
+      "name": "yî field ž ",
+      "request": {
+        "method": "POST",
+        "header": [
+          {
+            "key": "Ones-User-Id",
+            "value": "{{user_uuid}}"
+          },
+          {
+            "key": "Ones-Auth-Token",
+            "value": "{{token}}"
+          },
+          {
+            "key": "Content-Type",
+            "value": "application/json"
+          }
+        ],
+        "body": {
+          "mode": "raw",
+          "raw": "{\n\t\n\t\n}"
+        },
+        "url": "{{base_url}}/team/{{team_uuid}}/project/HhBuvoDJ12345670/issue_type/Ax5SHvRu/fields/add",
+        "description": null
+      },
+      "response": []
     }
   ]
 }
