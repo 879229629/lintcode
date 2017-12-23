@@ -1151,6 +1151,27 @@
         "description": null
       },
       "response": []
+    },
+    {
+      "_postman_id": "d48fd302-26f6-8fc6-1a8d-50853c975fff",
+      "name": "yî field  d",
+      "request": {
+        "method": "POST",
+        "header": [
+          {
+            "key": "Ones-User-Id",
+            "value": "{{user_uuid}}"
+          },
+          {
+            "key": "Ones-Auth-Token",
+            "value": "{{token}}"
+          }
+        ],
+        "body": {},
+        "url": "{{base_url}}/team/{{team_uuid}}/project/HhBuvoDJ12345670/issue_type/Ax5SHvRu/field/field001/delete",
+        "description": null
+      },
+      "response": []
     }
   ]
 }
