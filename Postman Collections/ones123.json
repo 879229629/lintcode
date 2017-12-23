@@ -852,34 +852,6 @@
       "response": []
     },
     {
-      "_postman_id": "0ffd9fb9-2f30-80e3-ce66-2de8df21cbb6",
-      "name": "î9field_config",
-      "request": {
-        "method": "POST",
-        "header": [
-          {
-            "key": "Ones-User-Id",
-            "value": "{{user_uuid}}"
-          },
-          {
-            "key": "Ones-Auth-Token",
-            "value": "{{token}}"
-          },
-          {
-            "key": "Content-Type",
-            "value": "application/json"
-          }
-        ],
-        "body": {
-          "mode": "raw",
-          "raw": "{\"field_config\":{\"required\":true}}\n"
-        },
-        "url": "{{base_url}}/team/BjebjqK6/project/X6swogWYySvEwqNK/issue_type/KgDzH3oE/field/field011/update",
-        "description": null
-      },
-      "response": []
-    },
-    {
       "_postman_id": "5a130ff5-55d5-8da2-a270-6fb39b1105eb",
       "name": "h@fields",
       "request": {
