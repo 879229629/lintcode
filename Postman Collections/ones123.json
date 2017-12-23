@@ -1207,6 +1207,34 @@
         "description": null
       },
       "response": []
+    },
+    {
+      "_postman_id": "3932320d-d553-f191-34ea-6aa8f8e68d79",
+      "name": "h@s.^'",
+      "request": {
+        "method": "POST",
+        "header": [
+          {
+            "key": "Ones-User-Id",
+            "value": "{{user_uuid}}"
+          },
+          {
+            "key": "Ones-Auth-Token",
+            "value": "{{token}}"
+          },
+          {
+            "key": "Content-Type",
+            "value": "application/json"
+          }
+        ],
+        "body": {
+          "mode": "raw",
+          "raw": "{\n\t\n\t\n}"
+        },
+        "url": "{{base_url}}/team/{{team_uuid}}/issue_type/KrLiq1gE/important_fields/update",
+        "description": null
+      },
+      "response": []
     }
   ]
 }
