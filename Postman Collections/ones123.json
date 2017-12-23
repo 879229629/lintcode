@@ -1172,6 +1172,34 @@
         "description": null
       },
       "response": []
+    },
+    {
+      "_postman_id": "47125902-400d-a008-2478-c08cc58b6c5b",
+      "name": "û¡î9",
+      "request": {
+        "method": "POST",
+        "header": [
+          {
+            "key": "Ones-User-Id",
+            "value": "{{user_uuid}}"
+          },
+          {
+            "key": "Ones-Auth-Token",
+            "value": "{{token}}"
+          },
+          {
+            "key": "Content-Type",
+            "value": "application/json"
+          }
+        ],
+        "body": {
+          "mode": "raw",
+          "raw": "{\n\t\n\t\n}"
+        },
+        "url": "{{base_url}}/team/{{team_uuid}}/task/HhBuvoDJ-1234560/update",
+        "description": null
+      },
+      "response": []
     }
   ]
 }
