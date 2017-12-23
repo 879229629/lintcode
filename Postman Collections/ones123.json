@@ -914,7 +914,7 @@
         ],
         "body": {
           "mode": "raw",
-          "raw": "{\n\t\n}"
+          "raw": "{\n\t\"issue_type\": {\n\t\t\"name\": \"þissuetypeC\",\n\t\t\"icon\": 1\n\t}\n}"
         },
         "url": "{{base_url}}/team/{{team_uuid}}/issue_types/add",
         "description": null
