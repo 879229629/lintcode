@@ -1229,9 +1229,9 @@
         ],
         "body": {
           "mode": "raw",
-          "raw": "{\n\t\n\t\n}"
+          "raw": "{\n\t\"fields\": [\"field001\"]\n}"
         },
-        "url": "{{base_url}}/team/{{team_uuid}}/issue_type/KrLiq1gE/important_fields/update",
+        "url": "{{base_url}}/team/{{team_uuid}}/issue_type/Ax5SHvRu/important_fields/update",
         "description": null
       },
       "response": []
