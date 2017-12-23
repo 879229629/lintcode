@@ -1144,6 +1144,27 @@
         "description": null
       },
       "response": []
+    },
+    {
+      "_postman_id": "52e96e36-402e-18c2-4623-c61d7aa4385b",
+      "name": "úû¡",
+      "request": {
+        "method": "POST",
+        "header": [
+          {
+            "key": "Ones-User-Id",
+            "value": "{{user_uuid}}"
+          },
+          {
+            "key": "Ones-Auth-Token",
+            "value": "{{token}}"
+          }
+        ],
+        "body": {},
+        "url": "{{base_url}}/team/{{team_uuid}}/tasks/add",
+        "description": null
+      },
+      "response": []
     }
   ]
 }
