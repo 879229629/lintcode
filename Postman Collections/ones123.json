@@ -1200,34 +1200,6 @@
         "description": null
       },
       "response": []
-    },
-    {
-      "_postman_id": "48c9607e-1688-1805-2b1d-4e0634278fb8",
-      "name": "û¡î9",
-      "request": {
-        "method": "POST",
-        "header": [
-          {
-            "key": "Ones-User-Id",
-            "value": "{{user_uuid}}"
-          },
-          {
-            "key": "Ones-Auth-Token",
-            "value": "{{token}}"
-          },
-          {
-            "key": "Content-Type",
-            "value": "application/json"
-          }
-        ],
-        "body": {
-          "mode": "raw",
-          "raw": "{\n\t\"tasks\": [\n\t\t\t{\n\t\t\t\t\"uuid\": \"HhBuvoDJ-1234560\",\n\t\t\t\t\"assign\":\"HhBuvoDJ\",\n\t\t\t\t\"project_uuid\":\"HhBuvoDJ12345670\",\n\t\t\t\t\"issue_type_uuid\":\"Ax5SHvRu\",\n\t\t\t\t\"deadline\": 0,\n\t\t\t\t\"parent_uuid\":\"\",\n\t\t\t\t\"summary\": \"˜\"\n\t\t\t}\n\t\t\n\t\t]\n\t\n}"
-        },
-        "url": "{{base_url}}/team/{{team_uuid}}/tasks/update",
-        "description": null
-      },
-      "response": []
     }
   ]
 }
