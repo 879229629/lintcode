@@ -1200,6 +1200,34 @@
         "description": null
       },
       "response": []
+    },
+    {
+      "_postman_id": "14200b98-101c-a19c-678d-e2e44651dfb7",
+      "name": "{{base_url}}/team/{{team_uuid}}/stamps/data",
+      "request": {
+        "method": "POST",
+        "header": [
+          {
+            "key": "Ones-User-Id",
+            "value": "{{user_uuid}}"
+          },
+          {
+            "key": "Ones-Auth-Token",
+            "value": "{{token}}"
+          },
+          {
+            "key": "Content-Type",
+            "value": "application/json"
+          }
+        ],
+        "body": {
+          "mode": "raw",
+          "raw": "{\n\t\n\t\n}"
+        },
+        "url": "{{base_url}}/team/{{team_uuid}}/stamps/data",
+        "description": null
+      },
+      "response": []
     }
   ]
 }
