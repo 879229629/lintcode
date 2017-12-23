@@ -1166,7 +1166,7 @@
         ],
         "body": {
           "mode": "raw",
-          "raw": "{\n\t\"tasks\": [\n\t\t\t{\n\t\t\t\t\"uuid\": \"HhBuvoDJ-1234567\",\n\t\t\t\t\"assign\":\"HhBuvoDJ\",\n\t\t\t\t\"project_uuid\":\"HhBuvoDJ12345670\",\n\t\t\t\t\"issue_type_uuid\":\"Ax5SHvRu\",\n\t\t\t\t\"summary\", \"˜\"\n\t\t\t}\n\t\t\n\t\t]\n\t\n}"
+          "raw": "{\n\t\"tasks\": [\n\t\t\t{\n\t\t\t\t\"uuid\": \"HhBuvoDJ-1234567\",\n\t\t\t\t\"assign\":\"HhBuvoDJ\",\n\t\t\t\t\"project_uuid\":\"HhBuvoDJ12345670\",\n\t\t\t\t\"issue_type_uuid\":\"Ax5SHvRu\",\n\t\t\t\t\"summary\" \"˜\"\n\t\t\t}\n\t\t\n\t\t]\n\t\n}"
         },
         "url": "{{base_url}}/team/{{team_uuid}}/tasks/add",
         "description": null
