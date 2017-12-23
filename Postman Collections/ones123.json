@@ -667,27 +667,6 @@
       "response": []
     },
     {
-      "_postman_id": "bc348218-e671-4eb8-3413-8ca90ef6b51a",
-      "name": "·Öfield config",
-      "request": {
-        "method": "GET",
-        "header": [
-          {
-            "key": "Ones-User-Id",
-            "value": "{{user_uuid}}"
-          },
-          {
-            "key": "Ones-Auth-Token",
-            "value": "{{token}}"
-          }
-        ],
-        "body": {},
-        "url": "{{base_url}}/team/{{team_uuid}}/field_configs",
-        "description": ""
-      },
-      "response": []
-    },
-    {
       "_postman_id": "6596a7ac-5149-6830-1623-27ae6e919b9a",
       "name": "·Ö fields",
       "request": {
