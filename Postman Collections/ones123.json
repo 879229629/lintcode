@@ -1138,7 +1138,7 @@
         ],
         "body": {
           "mode": "raw",
-          "raw": "{\n\t\"field_config\": {\n\t\"field_uuid\": \"field013\",\n\t\"required\": false\n\t}\n}"
+          "raw": "{\n\t\"field_config\": {\n\t\"field_uuid\": \"field001\",\n\t\"required\": true\n\t}\n}"
         },
         "url": "{{base_url}}/team/{{team_uuid}}/project/HhBuvoDJ12345670/issue_type/Ax5SHvRu/fields/add",
         "description": null
