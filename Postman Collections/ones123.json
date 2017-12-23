@@ -1145,7 +1145,7 @@
         ],
         "body": {
           "mode": "raw",
-          "raw": "{\n\t\n\t{\"field_config\":{\"required\":true}}\n\n}"
+          "raw": "{\n\t\"field_config\":{\"required\":true}\n\n}"
         },
         "url": "{{base_url}}/team/{{team_uuid}}/project/HhBuvoDJ12345670/issue_type/Ax5SHvRu/field/field001/update",
         "description": null
