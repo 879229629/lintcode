@@ -921,7 +921,7 @@
         ],
         "body": {
           "mode": "raw",
-          "raw": "{\n\t\"field_config\": {\n\t\"field_uuid\": \"SX4gcWpL\",\n\t\"required\": true\n\t}\n}"
+          "raw": "{\n\t\"field_config\": {\n\t\"field_uuid\": \"P5Y9S6gZ\",\n\t\"required\": true\n\t}\n}"
         },
         "url": "{{base_url}}/team/{{team_uuid}}/issue_type/ELcbQ4j8/fields/add",
         "description": null
