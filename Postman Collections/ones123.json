@@ -923,7 +923,7 @@
           "mode": "raw",
           "raw": "{\n\t\"field_config\": {\n\t\"field_uuid\": \"SX4gcWpL\",\n\t\"required\": true\n\t}\n}"
         },
-        "url": "{{base_url}}/team/{{team_uuid}}/issue_type/65aosrV7/fields/add",
+        "url": "{{base_url}}/team/{{team_uuid}}/issue_type/ELcbQ4j8/fields/add",
         "description": null
       },
       "response": []
