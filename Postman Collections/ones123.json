@@ -1145,7 +1145,7 @@
         ],
         "body": {
           "mode": "raw",
-          "raw": "{\n\t\"tasks\": [\n\t\t\t{\n\t\t\t\t\"uuid\": \"82aAmu8z-1234562\",\n\t\t\t\t\"assign\":\"82aAmu8z\",\n\t\t\t\t\"project_uuid\":\"82aAmu8z12345672\",\n\t\t\t\t\"issue_type_uuid\":\"ELcbQ4j8\",\n\t\t\t\t\"deadline\":1,\n\t\t\t\t\"desc\": \"vvvv\",\n\t\t\t\t\"parent_uuid\":\"\",\n\t\t\t\t\"summary\": \"˜\",\n\t\t\t\t\"field_values\": {\n\t\t\t\t\t\t{\n\t\t\t\t\t\t\t\"field_uuid\": \"SX4gcWpL\",\n\t\t\t\t\t\t\t\"type\": 15\n\t\t\t\t\t\t}\n\t\t\t\t\t\n\t\t\t\t}\n\t\t\t}\n\t\t\n\t\t]\n\t\n}"
+          "raw": "{\n\t\"tasks\": [\n\t\t\t{\n\t\t\t\t\"uuid\": \"82aAmu8z-1234562\",\n\t\t\t\t\"assign\":\"82aAmu8z\",\n\t\t\t\t\"project_uuid\":\"82aAmu8z12345672\",\n\t\t\t\t\"issue_type_uuid\":\"ELcbQ4j8\",\n\t\t\t\t\"deadline\":1,\n\t\t\t\t\"desc\": \"vvvv\",\n\t\t\t\t\"parent_uuid\":\"\",\n\t\t\t\t\"summary\": \"˜\",\n\t\t\t\t\"field_values\": [\n\t\t\t\t\t\t{\n\t\t\t\t\t\t\t\"field_uuid\": \"SX4gcWpL\",\n\t\t\t\t\t\t\t\"type\": 15\n\t\t\t\t\t\t}\n\t\t\t\t]\n\t\t\t}\n\t\t\n\t\t]\n\t\n}"
         },
         "url": "{{base_url}}/team/{{team_uuid}}/tasks/add",
         "description": null
