@@ -1235,6 +1235,27 @@
         "description": null
       },
       "response": []
+    },
+    {
+      "_postman_id": "a10664d7-bfb5-f86d-7805-147728f5b0a7",
+      "name": "fields ú",
+      "request": {
+        "method": "POST",
+        "header": [
+          {
+            "key": "Ones-User-Id",
+            "value": "{{user_uuid}}"
+          },
+          {
+            "key": "Ones-Auth-Token",
+            "value": "{{token}}"
+          }
+        ],
+        "body": {},
+        "url": "{{base_url}}/team/{{team_uuid}}/fields/add",
+        "description": null
+      },
+      "response": []
     }
   ]
 }
