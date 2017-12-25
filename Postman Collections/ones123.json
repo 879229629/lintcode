@@ -1257,7 +1257,7 @@
         ],
         "body": {
           "mode": "raw",
-          "raw": "{\n\t\"field\": {\n\t\"name\":\"DDDD\",\n\t\"type\": 15,\n\t\"filter_option\":0,\n\t\"renderer\":1,\n\t\"search_option\":1\n\t}\n\t\n}"
+          "raw": "{\n\t\"field\": {\n\t\"name\":\"XXXX\",\n\t\"type\": 2,\n\t\"filter_option\":0,\n\t\"renderer\":1,\n\t\"search_option\":1\n\t}\n\t\n}"
         },
         "url": "{{base_url}}/team/{{team_uuid}}/fields/add",
         "description": null
