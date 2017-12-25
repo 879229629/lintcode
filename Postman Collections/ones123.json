@@ -1284,6 +1284,27 @@
         "description": null
       },
       "response": []
+    },
+    {
+      "_postman_id": "1202db8f-e222-036d-698a-7f00b05281dd",
+      "name": "task messages",
+      "request": {
+        "method": "GET",
+        "header": [
+          {
+            "key": "Ones-User-Id",
+            "value": "{{user_uuid}}"
+          },
+          {
+            "key": "Ones-Auth-Token",
+            "value": "{{token}}"
+          }
+        ],
+        "body": {},
+        "url": "{{base_url}}/team/{{team_uuid}}/task/82aAmu8z-1234562/messages",
+        "description": null
+      },
+      "response": []
     }
   ]
 }
