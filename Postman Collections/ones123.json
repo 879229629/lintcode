@@ -1019,7 +1019,7 @@
         ],
         "body": {
           "mode": "raw",
-          "raw": "{\n\"issue_type_uuids\": [\"Ax5SHvRu\"]\t\n\t\n}"
+          "raw": "{\n\"issue_type_uuids\": [\"ELcbQ4j8\"]\t\n\t\n}"
         },
         "url": "{{base_url}}/team/{{team_uuid}}/project/HhBuvoDJ12345670/issue_types/add",
         "description": null
