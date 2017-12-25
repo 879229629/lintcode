@@ -1182,7 +1182,7 @@
     },
     {
       "_postman_id": "14200b98-101c-a19c-678d-e2e44651dfb7",
-      "name": "{{base_url}}/team/{{team_uuid}}/stamps/data",
+      "name": "stamps data",
       "request": {
         "method": "POST",
         "header": [
