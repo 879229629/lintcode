@@ -1021,7 +1021,7 @@
           "mode": "raw",
           "raw": "{\n\"issue_type_uuids\": [\"ELcbQ4j8\"]\t\n\t\n}"
         },
-        "url": "{{base_url}}/team/{{team_uuid}}/project/HhBuvoDJ12345670/issue_types/add",
+        "url": "{{base_url}}/team/{{team_uuid}}/project/82aAmu8z12345672/issue_types/add",
         "description": null
       },
       "response": []
