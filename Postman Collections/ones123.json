@@ -1263,6 +1263,27 @@
         "description": null
       },
       "response": []
+    },
+    {
+      "_postman_id": "8b284330-d186-4c3e-9381-1ec7a4c2ae54",
+      "name": "·Öfield config",
+      "request": {
+        "method": "GET",
+        "header": [
+          {
+            "key": "Ones-User-Id",
+            "value": "{{user_uuid}}"
+          },
+          {
+            "key": "Ones-Auth-Token",
+            "value": "{{token}}"
+          }
+        ],
+        "body": {},
+        "url": "{{base_url}}/team/{{team_uuid}}/field_configs",
+        "description": null
+      },
+      "response": []
     }
   ]
 }
