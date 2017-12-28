@@ -1173,7 +1173,7 @@
         ],
         "body": {
           "mode": "raw",
-          "raw": "{\n\t\"tasks\": [\n\t\t\t{\n\t\t\t\t\"uuid\": \"HhBuvoDJ-1234562\",\n\t\t\t\t\"assign\":\"HhBuvoDJ\",\n\t\t\t\t\"project_uuid\":\"HhBuvoDJ12345670\",\n\t\t\t\t\"issue_type_uuid\":\"Ax5SHvRu\",\n\t\t\t\t\"desc\":\"222\",\n\t\t\t\t\"parent_uuid\":\"\",\n\t\t\t\t\"summary\": \"111˜\"\n\t\t\t}\n\t\t\n\t\t]\n\t\n}"
+          "raw": "{\n\t\"tasks\": [\n\t\t\t{\n\t\t\t\t\"uuid\": \"82aAmu8z-1234563\",\n\t\t\t\t\"summary\": \"111˜\"\n\t\t\t}\n\t\t\n\t\t]\n}"
         },
         "url": "{{base_url}}/team/{{team_uuid}}/tasks/update",
         "description": null
