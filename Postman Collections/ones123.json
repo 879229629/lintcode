@@ -1329,7 +1329,7 @@
           "mode": "raw",
           "raw": "{\n\t\n\t\n}"
         },
-        "url": "{{base_url}}/team/{{team_uuid}}/tasks/copy2",
+        "url": "{{base_url}}/team/{{team_uuid}}/task/82aAmu8z-1234563/copy2",
         "description": null
       },
       "response": []
