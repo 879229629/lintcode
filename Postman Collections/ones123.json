@@ -1175,7 +1175,7 @@
           "mode": "raw",
           "raw": "{\n\t\"tasks\": [\n\t\t\t{\n\t\t\t\t\"uuid\": \"82aAmu8z-1234563\",\n\t\t\t\t\"summary\": \"111˜\"\n\t\t\t}\n\t\t\n\t\t]\n}"
         },
-        "url": "{{base_url}}/team/{{team_uuid}}/tasks/update",
+        "url": "{{base_url}}/team/{{team_uuid}}/tasks/update2",
         "description": null
       },
       "response": []
