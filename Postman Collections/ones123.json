@@ -1361,6 +1361,18 @@
         "description": ""
       },
       "response": []
+    },
+    {
+      "_postman_id": "96ed9756-376e-e419-9bf7-529665634d70",
+      "name": "·ÖCP",
+      "request": {
+        "method": "GET",
+        "header": [],
+        "body": {},
+        "url": "{{base_url}}/team/{{team_uuid}}/evaluated_permissions",
+        "description": null
+      },
+      "response": []
     }
   ]
 }
