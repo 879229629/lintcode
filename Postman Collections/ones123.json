@@ -1327,7 +1327,7 @@
         ],
         "body": {
           "mode": "raw",
-          "raw": "{\n\t\n\t\n}"
+          "raw": "{\n\t\"project_uuid\": \"82aAmu8z12345672\",\n\t\"issue_type_uuid\": \"ELcbQ4j8\"\n\t\n}"
         },
         "url": "{{base_url}}/team/{{team_uuid}}/task/82aAmu8z-1234563/copy",
         "description": null
