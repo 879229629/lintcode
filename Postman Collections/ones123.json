@@ -1358,7 +1358,7 @@
           "raw": "{\"query\":{\"must\":[{\"equal\":{\"field_values.field007\":\"KgDzH3oE\"}},{\"equal\":{\"field_values.field006\":\"X6swogWYySvEwqNK\"}},{\"not_in\":{\"field_values.field017\":[\"done\"]}}]},\"group_by\":\"status_category\",\"sort\":[{\"server_update_stamp\":{\"order\":\"desc\"}}],\"include_subtasks\":false}\n\n"
         },
         "url": "{{base_url}}/team/{{team_uuid}}/filters/peek",
-        "description": null
+        "description": ""
       },
       "response": []
     }
