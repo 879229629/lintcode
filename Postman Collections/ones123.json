@@ -1333,6 +1333,34 @@
         "description": null
       },
       "response": []
+    },
+    {
+      "_postman_id": "02f4b8d9-5617-5daf-8a44-87215fec40d1",
+      "name": "filter",
+      "request": {
+        "method": "POST",
+        "header": [
+          {
+            "key": "Content-Type",
+            "value": "application/json"
+          },
+          {
+            "key": "Ones-User-Id",
+            "value": "{{user_uuid}}"
+          },
+          {
+            "key": "Ones-Auth-Token",
+            "value": "{{token}}"
+          }
+        ],
+        "body": {
+          "mode": "raw",
+          "raw": "{\"query\":{\"must\":[{\"equal\":{\"field_values.field007\":\"KgDzH3oE\"}},{\"equal\":{\"field_values.field006\":\"X6swogWYySvEwqNK\"}},{\"not_in\":{\"field_values.field017\":[\"done\"]}}]},\"group_by\":\"status_category\",\"sort\":[{\"server_update_stamp\":{\"order\":\"desc\"}}],\"include_subtasks\":false}\n\n"
+        },
+        "url": "{{base_url}}/team/{{team_uuid}}/filters/peek",
+        "description": null
+      },
+      "response": []
     }
   ]
 }
