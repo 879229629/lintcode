@@ -1382,6 +1382,45 @@
         "description": null
       },
       "response": []
+    },
+    {
+      "_postman_id": "6f251add-f5c2-795f-056f-288d0f3ceaba",
+      "name": "ëg",
+      "request": {
+        "method": "GET",
+        "header": [
+          {
+            "key": "Ones-User-Id",
+            "value": "{{user_uuid}}"
+          },
+          {
+            "key": "Ones-Auth-Token",
+            "value": "{{token}}"
+          }
+        ],
+        "body": {},
+        "url": {
+          "raw": "{{base_url}}/team/{{team_uuid}}/filters/snapshot?filter_uuid=xxx",
+          "host": [
+            "{{base_url}}"
+          ],
+          "path": [
+            "team",
+            "{{team_uuid}}",
+            "filters",
+            "snapshot"
+          ],
+          "query": [
+            {
+              "key": "filter_uuid",
+              "value": "xxx",
+              "equals": true
+            }
+          ]
+        },
+        "description": null
+      },
+      "response": []
     }
   ]
 }
