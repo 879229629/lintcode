@@ -778,7 +778,7 @@
         ],
         "body": {
           "mode": "raw",
-          "raw": "{\n\t\"name\":\"xx\",\n\t\"query\":{\"must\":[{\"equal\":{\"field_values.field007\":\"KgDzH3oE\"}}]},\n\t\"group_by\":\"\",\n\t\"sort\":[{\"create_time\":{\"order\":\"desc\"}}]\n\t}\n\t"
+          "raw": "{\n\t\"name\":\"xx\",\n\t\"query\":{\"must\":[{\"equal\":{\"field_values.field004\":\"X6swogWY\"}}]},\n\t\"group_by\":\"\",\n\t\"sort\":[{\"create_time\":{\"order\":\"desc\"}}]\n\t}\n\t"
         },
         "url": "{{base_url}}/team/{{team_uuid}}/filters/export",
         "description": ""
