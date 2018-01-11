@@ -1355,7 +1355,7 @@
         ],
         "body": {
           "mode": "raw",
-          "raw": "{\n\t\n\t\"query\":{\"must\":[\n\t\n\t{\"equal\":{\"field_values.field006\":\"82aAmu8zEoqg9E9Z\"}}\n\t\n\t]},\n\n\"group_by\":\"status_category\",\"sort\":[{\"server_update_stamp\":{\"order\":\"desc\"}}],\"include_subtasks\":false}\n\n"
+          "raw": "{\n\t\n\t\"query\":{\"must\":[\n\t\n\t{\"equal\":{\"field_values.field006\":\"82aAmu8zEoqg9E9Z\"}},\n\t{\"date_range\":{\"field_values.field013\":{\"not_equal\":\"2017-12-30\"}}}\n\n\t\n\t]},\n\n\"group_by\":\"status_category\",\"sort\":[{\"server_update_stamp\":{\"order\":\"desc\"}}],\"include_subtasks\":false}\n\n"
         },
         "url": "{{base_url}}/team/{{team_uuid}}/filters/peek",
         "description": ""
