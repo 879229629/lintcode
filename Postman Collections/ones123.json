@@ -1426,6 +1426,27 @@
         "description": null
       },
       "response": []
+    },
+    {
+      "_postman_id": "7bbe58e7-9ee8-1d40-5aa8-841cfe025f40",
+      "name": "6yî",
+      "request": {
+        "method": "POST",
+        "header": [
+          {
+            "key": "Ones-User-Id",
+            "value": "{{user_uuid}}"
+          },
+          {
+            "key": "Ones-Auth-Token",
+            "value": "{{token}}"
+          }
+        ],
+        "body": {},
+        "url": "{{base_url}}/team/{{team_uuid}}/project/82aAmu8z12345672/copy",
+        "description": null
+      },
+      "response": []
     }
   ]
 }
