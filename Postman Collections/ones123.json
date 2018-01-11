@@ -1440,9 +1440,16 @@
           {
             "key": "Ones-Auth-Token",
             "value": "{{token}}"
+          },
+          {
+            "key": "Content-Type",
+            "value": "application/json"
           }
         ],
-        "body": {},
+        "body": {
+          "mode": "raw",
+          "raw": "{\n\t\n}"
+        },
         "url": "{{base_url}}/team/{{team_uuid}}/project/82aAmu8z12345672/copy",
         "description": ""
       },
