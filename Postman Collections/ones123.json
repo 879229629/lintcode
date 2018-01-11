@@ -1448,7 +1448,7 @@
         ],
         "body": {
           "mode": "raw",
-          "raw": "{\n\t\"uuid\": \"82aAmu8z12345672\",\n\t\"\": \"\"\n}"
+          "raw": "{\n\t\"uuid\": \"82aAmu8z12345672\",\n\t\"name\": \"xxx\"\n}"
         },
         "url": "{{base_url}}/team/{{team_uuid}}/project/82aAmu8z12345672/copy",
         "description": ""
