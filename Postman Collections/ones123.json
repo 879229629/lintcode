@@ -1444,7 +1444,7 @@
         ],
         "body": {},
         "url": "{{base_url}}/team/{{team_uuid}}/project/82aAmu8z12345672/copy",
-        "description": null
+        "description": ""
       },
       "response": []
     }
