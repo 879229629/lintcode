@@ -1400,7 +1400,7 @@
         ],
         "body": {},
         "url": {
-          "raw": "{{base_url}}/team/{{team_uuid}}/filters/snapshot?filter_uuid=ft-t-001",
+          "raw": "{{base_url}}/team/{{team_uuid}}/filters/snapshot?filter_uuid=ft-t-001&project_uuid=",
           "host": [
             "{{base_url}}"
           ],
@@ -1414,6 +1414,11 @@
             {
               "key": "filter_uuid",
               "value": "ft-t-001",
+              "equals": true
+            },
+            {
+              "key": "project_uuid",
+              "value": "",
               "equals": true
             }
           ]
