@@ -1454,6 +1454,34 @@
         "description": ""
       },
       "response": []
+    },
+    {
+      "_postman_id": "300975b0-525b-902b-0a52-a806be3c4c30",
+      "name": "filter",
+      "request": {
+        "method": "POST",
+        "header": [
+          {
+            "key": "Ones-User-Id",
+            "value": "{{user_uuid}}"
+          },
+          {
+            "key": "Ones-Auth-Token",
+            "value": "{{token}}"
+          },
+          {
+            "key": "Content-Type",
+            "value": "application/json"
+          }
+        ],
+        "body": {
+          "mode": "raw",
+          "raw": ""
+        },
+        "url": "{{base_url}}/team/{{team_uuid}}/filters/peek",
+        "description": null
+      },
+      "response": []
     }
   ]
 }
