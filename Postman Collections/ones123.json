@@ -1476,7 +1476,7 @@
         ],
         "body": {
           "mode": "raw",
-          "raw": ""
+          "raw": "{\n\t\n\t\n}"
         },
         "url": "{{base_url}}/team/{{team_uuid}}/filters/peek",
         "description": null
