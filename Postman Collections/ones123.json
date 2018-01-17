@@ -1482,6 +1482,27 @@
         "description": null
       },
       "response": []
+    },
+    {
+      "_postman_id": "b05c0b76-c3ea-4d13-6a0a-8680bebd3318",
+      "name": "·Ö task",
+      "request": {
+        "method": "GET",
+        "header": [
+          {
+            "key": "Ones-User-Id",
+            "value": "{{user_uuid}}"
+          },
+          {
+            "key": "Ones-Auth-Token",
+            "value": "{{token}}"
+          }
+        ],
+        "body": {},
+        "url": "{{base_url}}/team/{{team_uuid}}/project/82aAmu8zEoqg9E9Z/task/82aAmu8z12Ev6D8v/info",
+        "description": null
+      },
+      "response": []
     }
   ]
 }
