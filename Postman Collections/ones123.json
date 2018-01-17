@@ -1503,6 +1503,27 @@
         "description": null
       },
       "response": []
+    },
+    {
+      "_postman_id": "7e932cf9-22af-5fc2-3688-76c381d5de32",
+      "name": "sprint",
+      "request": {
+        "method": "GET",
+        "header": [
+          {
+            "key": "Ones-User-Id",
+            "value": "{{user_uuid}}"
+          },
+          {
+            "key": "Ones-Auth-Token",
+            "value": "{{token}}"
+          }
+        ],
+        "body": {},
+        "url": "{{base_url}}/team/{{team_uuid}}/project/82aAmu8zEoqg9E9Z/sprint/QmYwWMaz/burndown",
+        "description": null
+      },
+      "response": []
     }
   ]
 }
