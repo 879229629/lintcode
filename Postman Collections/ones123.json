@@ -1520,7 +1520,7 @@
           }
         ],
         "body": {},
-        "url": "{{base_url}}/team/{{team_uuid}}/project/82aAmu8zEoqg9E9Z/sprint/QmYwWMaz/burndown",
+        "url": "{{base_url}}/team/{{team_uuid}}/project/NRY2WDaM9CZrrW4T/sprint/YCoUcPLp/burndown",
         "description": null
       },
       "response": []
