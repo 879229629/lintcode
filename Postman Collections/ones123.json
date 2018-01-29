@@ -1201,9 +1201,27 @@
         ],
         "body": {
           "mode": "raw",
-          "raw": "{\"team\":1515225298036976,\"team_member\":1515384923537168,\"department\":1515142930575696,\"group\":1515140742994304,\"project\":1515834022886480,\"sprint\":1515834006347120,\"issue_type\":1515557565873520,\"issue_type_config\":1515834004416368,\"field\":1515829858260048,\"field_config\":1515834004416368,\"task_status\":1514949238332000,\"task_status_config\":1515834004416368,\"transition\":1515834004416368,\"permission_rule\":1515834004416368,\"evaluated_permission\":1515834006347120,\"task_stats\":1515834006347120,\"role\":1514947177589808,\"role_config\":1515834004416368,\"dashboard\":1515834006347120,\"all_project\":1515834022886480}"
+          "raw": "{\"evaluated_permission\":0}\n\n"
         },
-        "url": "{{base_url}}/team/{{team_uuid}}/stamps/data",
+        "url": {
+          "raw": "{{base_url}}/team/{{team_uuid}}/stamps/data?a=XXXXX",
+          "host": [
+            "{{base_url}}"
+          ],
+          "path": [
+            "team",
+            "{{team_uuid}}",
+            "stamps",
+            "data"
+          ],
+          "query": [
+            {
+              "key": "a",
+              "value": "XXXXX",
+              "equals": true
+            }
+          ]
+        },
         "description": null
       },
       "response": []
