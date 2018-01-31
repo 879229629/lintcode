@@ -445,7 +445,16 @@
       "name": "·Ö”(",
       "request": {
         "method": "GET",
-        "header": [],
+        "header": [
+          {
+            "key": "Ones-User-Id",
+            "value": "{{user_uuid}}"
+          },
+          {
+            "key": "Ones-Auth-Token",
+            "value": "{{token}}"
+          }
+        ],
         "body": {},
         "url": {
           "raw": "{{base_url}}/app?appId=874881574",
