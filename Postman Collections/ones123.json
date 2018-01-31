@@ -1538,7 +1538,7 @@
           }
         ],
         "body": {},
-        "url": "{{base_url}}/team/{{team_uuid}}/project/NRY2WDaM9CZrrW4T/sprint/YCoUcPLp/burndown",
+        "url": "{{base_url}}/team/{{team_uuid}}/project/82aAmu8zAAAAAA1G/sprint/CC4Hr4UP/burndown",
         "description": null
       },
       "response": []
